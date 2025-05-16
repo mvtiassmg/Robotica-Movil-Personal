@@ -1,0 +1,701 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (cmd_vel_mux) JobQueued: {'identifier': 'cmd_vel_mux', 'dependencies': OrderedDict()}
+[0.000387] (lab2_iic2685) JobQueued: {'identifier': 'lab2_iic2685', 'dependencies': OrderedDict()}
+[0.000443] (mini_tarea_2) JobQueued: {'identifier': 'mini_tarea_2', 'dependencies': OrderedDict()}
+[0.000497] (very_simple_robot_simulator) JobQueued: {'identifier': 'very_simple_robot_simulator', 'dependencies': OrderedDict()}
+[0.000550] (cmd_vel_mux) JobStarted: {'identifier': 'cmd_vel_mux'}
+[0.007831] (lab2_iic2685) JobStarted: {'identifier': 'lab2_iic2685'}
+[0.013250] (mini_tarea_2) JobStarted: {'identifier': 'mini_tarea_2'}
+[0.017905] (very_simple_robot_simulator) JobStarted: {'identifier': 'very_simple_robot_simulator'}
+[0.025413] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'cmake'}
+[0.026341] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'build'}
+[0.027245] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/cmd_vel_mux', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/cmd_vel_mux'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.034579] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'cmake'}
+[0.034630] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'build'}
+[0.034665] (lab2_iic2685) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/lab2_iic2685', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/lab2_iic2685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/lab2_iic2685'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.043502] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'cmake'}
+[0.043563] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'build'}
+[0.043658] (mini_tarea_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/mini_tarea_2', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/mini_tarea_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/mini_tarea_2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.044901] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'cmake'}
+[0.047440] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'build'}
+[0.049228] (very_simple_robot_simulator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/very_simple_robot_simulator', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/very_simple_robot_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/very_simple_robot_simulator'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.063137] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.083347] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.096327] (lab2_iic2685) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_lab2_iic2685\n'}
+[0.098584] (-) TimerEvent: {}
+[0.099257] (mini_tarea_2) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_mini_tarea_2\n'}
+[0.198996] (-) TimerEvent: {}
+[0.233677] (cmd_vel_mux) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.247964] (cmd_vel_mux) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.253778] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.261819] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.299136] (-) TimerEvent: {}
+[0.377411] (lab2_iic2685) StdoutLine: {'line': b'running egg_info\n'}
+[0.378218] (lab2_iic2685) StdoutLine: {'line': b'writing lab2_iic2685.egg-info/PKG-INFO\n'}
+[0.378401] (mini_tarea_2) StdoutLine: {'line': b'running egg_info\n'}
+[0.378618] (lab2_iic2685) StdoutLine: {'line': b'writing dependency_links to lab2_iic2685.egg-info/dependency_links.txt\n'}
+[0.378856] (mini_tarea_2) StdoutLine: {'line': b'writing mini_tarea_2.egg-info/PKG-INFO\n'}
+[0.379255] (lab2_iic2685) StdoutLine: {'line': b'writing top-level names to lab2_iic2685.egg-info/top_level.txt\n'}
+[0.379379] (mini_tarea_2) StdoutLine: {'line': b'writing dependency_links to mini_tarea_2.egg-info/dependency_links.txt\n'}
+[0.379638] (mini_tarea_2) StdoutLine: {'line': b'writing top-level names to mini_tarea_2.egg-info/top_level.txt\n'}
+[0.381296] (lab2_iic2685) StdoutLine: {'line': b"reading manifest file 'lab2_iic2685.egg-info/SOURCES.txt'\n"}
+[0.382976] (mini_tarea_2) StdoutLine: {'line': b"reading manifest file 'mini_tarea_2.egg-info/SOURCES.txt'\n"}
+[0.383245] (lab2_iic2685) StdoutLine: {'line': b"writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'\n"}
+[0.384239] (mini_tarea_2) StdoutLine: {'line': b"writing manifest file 'mini_tarea_2.egg-info/SOURCES.txt'\n"}
+[0.399289] (-) TimerEvent: {}
+[0.411804] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.414341] (lab2_iic2685) StdoutLine: {'line': b'Built target ament_cmake_python_build_lab2_iic2685_egg\n'}
+[0.414617] (mini_tarea_2) StdoutLine: {'line': b'Built target ament_cmake_python_build_mini_tarea_2_egg\n'}
+[0.415438] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.423502] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.426685] (lab2_iic2685) CommandEnded: {'returncode': 0}
+[0.429998] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'install'}
+[0.435119] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.438694] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.442382] (lab2_iic2685) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/lab2_iic2685'], 'cwd': '/home/maty/rob_movil_ws/build/lab2_iic2685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/lab2_iic2685'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.444891] (mini_tarea_2) CommandEnded: {'returncode': 0}
+[0.447268] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.449584] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'install'}
+[0.449643] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.449833] (mini_tarea_2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/mini_tarea_2'], 'cwd': '/home/maty/rob_movil_ws/build/mini_tarea_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/mini_tarea_2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.452338] (lab2_iic2685) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.453616] (lab2_iic2685) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.454004] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.sh\n'}
+[0.454356] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.dsv\n'}
+[0.454493] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.454898] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.455380] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.455614] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.455999] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685/__init__.py\n'}
+[0.456279] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/lib/lab2_iic2685/dead_reckoning_nav.py\n'}
+[0.456514] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/lib/lab2_iic2685/pose_loader.py\n'}
+[0.456748] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/launch/avanzar_y_rotar.py\n'}
+[0.456874] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/launch/avanzar_y_rotar.xml\n'}
+[0.457110] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/package_run_dependencies/lab2_iic2685\n'}
+[0.457173] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/parent_prefix_path/lab2_iic2685\n'}
+[0.457223] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.sh\n'}
+[0.457314] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.dsv\n'}
+[0.457771] (mini_tarea_2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.458245] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/path.sh\n'}
+[0.458463] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/path.dsv\n'}
+[0.458775] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.bash\n'}
+[0.458835] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.sh\n'}
+[0.458882] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.zsh\n'}
+[0.458936] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.dsv\n'}
+[0.458978] (lab2_iic2685) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.dsv\n'}
+[0.459497] (mini_tarea_2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.459826] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.sh\n'}
+[0.459953] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.dsv\n'}
+[0.460314] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.460504] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.460895] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.461031] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.461105] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.464102] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.470528] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2/__init__.py\n'}
+[0.470922] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/pid_controller.py\n'}
+[0.471155] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/virtual_robot.py\n'}
+[0.471585] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/launch/launch.py\n'}
+[0.471814] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/package_run_dependencies/mini_tarea_2\n'}
+[0.472060] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/parent_prefix_path/mini_tarea_2\n'}
+[0.472128] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.sh\n'}
+[0.472277] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.dsv\n'}
+[0.472413] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.sh\n'}
+[0.472542] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.dsv\n'}
+[0.472670] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.bash\n'}
+[0.472912] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.sh\n'}
+[0.473301] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.zsh\n'}
+[0.473438] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.dsv\n'}
+[0.473545] (mini_tarea_2) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.dsv\n'}
+[0.474585] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.475611] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/packages/lab2_iic2685\n'}
+[0.475878] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config.cmake\n'}
+[0.476033] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config-version.cmake\n'}
+[0.476325] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.xml\n'}
+[0.481212] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/packages/mini_tarea_2\n'}
+[0.481599] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config.cmake\n'}
+[0.481800] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config-version.cmake\n'}
+[0.481858] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.xml\n'}
+[0.499575] (-) TimerEvent: {}
+[0.508899] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[0.512865] (lab2_iic2685) StdoutLine: {'line': b"Listing '/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685'...\n"}
+[0.515940] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.517354] (mini_tarea_2) StdoutLine: {'line': b"Listing '/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2'...\n"}
+[0.518178] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.520755] (lab2_iic2685) CommandEnded: {'returncode': 0}
+[0.523398] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.539292] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.540626] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.543109] (lab2_iic2685) JobEnded: {'identifier': 'lab2_iic2685', 'rc': 0}
+[0.546199] (mini_tarea_2) CommandEnded: {'returncode': 0}
+[0.560663] (mini_tarea_2) JobEnded: {'identifier': 'mini_tarea_2', 'rc': 0}
+[0.599725] (-) TimerEvent: {}
+[0.700211] (-) TimerEvent: {}
+[0.800826] (-) TimerEvent: {}
+[0.901327] (-) TimerEvent: {}
+[1.001775] (-) TimerEvent: {}
+[1.102191] (-) TimerEvent: {}
+[1.202684] (-) TimerEvent: {}
+[1.303139] (-) TimerEvent: {}
+[1.403565] (-) TimerEvent: {}
+[1.504060] (-) TimerEvent: {}
+[1.604505] (-) TimerEvent: {}
+[1.704974] (-) TimerEvent: {}
+[1.805417] (-) TimerEvent: {}
+[1.905899] (-) TimerEvent: {}
+[2.006501] (-) TimerEvent: {}
+[2.107037] (-) TimerEvent: {}
+[2.207574] (-) TimerEvent: {}
+[2.308030] (-) TimerEvent: {}
+[2.408543] (-) TimerEvent: {}
+[2.508995] (-) TimerEvent: {}
+[2.609555] (-) TimerEvent: {}
+[2.710003] (-) TimerEvent: {}
+[2.810445] (-) TimerEvent: {}
+[2.910904] (-) TimerEvent: {}
+[2.945241] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.945679] (cmd_vel_mux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.993899] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.004221] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[3.004482] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[3.011062] (-) TimerEvent: {}
+[3.022877] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.099189] (cmd_vel_mux) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[3.099768] (cmd_vel_mux) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.111175] (-) TimerEvent: {}
+[3.126615] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.126891] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.126953] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.137139] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.137666] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/maty/rob_movil_ws/src/cmd_vel_mux/include\n'}
+[3.137756] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.139560] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.139701] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.140116] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.140907] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.141487] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.143500] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.143661] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.144324] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.145981] (cmd_vel_mux) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.167733] (cmd_vel_mux) StdoutLine: {'line': b'-- Generating done\n'}
+[3.175237] (cmd_vel_mux) StdoutLine: {'line': b'-- Build files have been written to: /home/maty/rob_movil_ws/build/cmd_vel_mux\n'}
+[3.201735] (cmd_vel_mux) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_mux\x1b[0m\n'}
+[3.202003] (cmd_vel_mux) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_mux_node\x1b[0m\n'}
+[3.211345] (-) TimerEvent: {}
+[3.219544] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_mux.dir/src/cmd_vel_mux.cpp.o\x1b[0m\n'}
+[3.219895] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] Built target cmd_vel_mux_node\n'}
+[3.311505] (-) TimerEvent: {}
+[3.411946] (-) TimerEvent: {}
+[3.512590] (-) TimerEvent: {}
+[3.613242] (-) TimerEvent: {}
+[3.713811] (-) TimerEvent: {}
+[3.814292] (-) TimerEvent: {}
+[3.914768] (-) TimerEvent: {}
+[4.015374] (-) TimerEvent: {}
+[4.115824] (-) TimerEvent: {}
+[4.216293] (-) TimerEvent: {}
+[4.314182] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.316379] (-) TimerEvent: {}
+[4.334150] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)\n'}
+[4.338289] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[4.343138] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[4.344687] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[4.416571] (-) TimerEvent: {}
+[4.435522] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[4.516738] (-) TimerEvent: {}
+[4.539132] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.616915] (-) TimerEvent: {}
+[4.626962] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.627904] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator\n'}
+[4.628056] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.628489] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.629709] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.630052] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.632743] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.632860] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.633610] (very_simple_robot_simulator) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.634875] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.664691] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Generating done\n'}
+[4.674358] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Build files have been written to: /home/maty/rob_movil_ws/build/very_simple_robot_simulator\n'}
+[4.705490] (very_simple_robot_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target kinect_simulator\x1b[0m\n'}
+[4.706556] (very_simple_robot_simulator) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_simulator\x1b[0m\n'}
+[4.717179] (-) TimerEvent: {}
+[4.724840] (very_simple_robot_simulator) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_very_simple_robot_simulator\n'}
+[4.731437] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator_node.cpp.o\x1b[0m\n'}
+[4.732763] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator_node.cpp.o\x1b[0m\n'}
+[4.733400] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/vsrs_utils.cpp.o\x1b[0m\n'}
+[4.734994] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator.cpp.o\x1b[0m\n'}
+[4.735651] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/vsrs_utils.cpp.o\x1b[0m\n'}
+[4.736203] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator.cpp.o\x1b[0m\n'}
+[4.817285] (-) TimerEvent: {}
+[4.917879] (-) TimerEvent: {}
+[5.018548] (-) TimerEvent: {}
+[5.113006] (very_simple_robot_simulator) StdoutLine: {'line': b'running egg_info\n'}
+[5.114048] (very_simple_robot_simulator) StdoutLine: {'line': b'writing very_simple_robot_simulator.egg-info/PKG-INFO\n'}
+[5.114482] (very_simple_robot_simulator) StdoutLine: {'line': b'writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt\n'}
+[5.115186] (very_simple_robot_simulator) StdoutLine: {'line': b'writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt\n'}
+[5.118209] (very_simple_robot_simulator) StdoutLine: {'line': b"reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'\n"}
+[5.118751] (-) TimerEvent: {}
+[5.119273] (very_simple_robot_simulator) StdoutLine: {'line': b"writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'\n"}
+[5.152334] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 75%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg\n'}
+[5.218988] (-) TimerEvent: {}
+[5.319679] (-) TimerEvent: {}
+[5.354754] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:9\x1b[m\x1b[K:\n'}
+[5.355363] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.355495] (very_simple_robot_simulator) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[5.355592] (very_simple_robot_simulator) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.420040] (-) TimerEvent: {}
+[5.520744] (-) TimerEvent: {}
+[5.621612] (-) TimerEvent: {}
+[5.722147] (-) TimerEvent: {}
+[5.822837] (-) TimerEvent: {}
+[5.923368] (-) TimerEvent: {}
+[6.024057] (-) TimerEvent: {}
+[6.124805] (-) TimerEvent: {}
+[6.225559] (-) TimerEvent: {}
+[6.326198] (-) TimerEvent: {}
+[6.427013] (-) TimerEvent: {}
+[6.527792] (-) TimerEvent: {}
+[6.628577] (-) TimerEvent: {}
+[6.729359] (-) TimerEvent: {}
+[6.829983] (-) TimerEvent: {}
+[6.930683] (-) TimerEvent: {}
+[7.031408] (-) TimerEvent: {}
+[7.131991] (-) TimerEvent: {}
+[7.232657] (-) TimerEvent: {}
+[7.333423] (-) TimerEvent: {}
+[7.433981] (-) TimerEvent: {}
+[7.534741] (-) TimerEvent: {}
+[7.635556] (-) TimerEvent: {}
+[7.736389] (-) TimerEvent: {}
+[7.837119] (-) TimerEvent: {}
+[7.937964] (-) TimerEvent: {}
+[8.038847] (-) TimerEvent: {}
+[8.139667] (-) TimerEvent: {}
+[8.240197] (-) TimerEvent: {}
+[8.340815] (-) TimerEvent: {}
+[8.441478] (-) TimerEvent: {}
+[8.542398] (-) TimerEvent: {}
+[8.643397] (-) TimerEvent: {}
+[8.744336] (-) TimerEvent: {}
+[8.845111] (-) TimerEvent: {}
+[8.935808] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7\x1b[m\x1b[K,\n'}
+[8.936232] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.936408] (very_simple_robot_simulator) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[8.936537] (very_simple_robot_simulator) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[8.936657] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.945253] (-) TimerEvent: {}
+[9.045753] (-) TimerEvent: {}
+[9.110580] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7\x1b[m\x1b[K,\n'}
+[9.110953] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[9.111070] (very_simple_robot_simulator) StderrLine: {'line': b"\x1b[01m\x1b[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead\x1b[m\x1b[K\xe2\x80\x99\n"}
+[9.111249] (very_simple_robot_simulator) StderrLine: {'line': b'   32 | #pragma message ("Warning: This header is deprecated. Use \'image_transport.hpp\' instead"\x1b[01;36m\x1b[K)\x1b[m\x1b[K\n'}
+[9.111376] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[9.146008] (-) TimerEvent: {}
+[9.246818] (-) TimerEvent: {}
+[9.347584] (-) TimerEvent: {}
+[9.448301] (-) TimerEvent: {}
+[9.549098] (-) TimerEvent: {}
+[9.649803] (-) TimerEvent: {}
+[9.750364] (-) TimerEvent: {}
+[9.851073] (-) TimerEvent: {}
+[9.951992] (-) TimerEvent: {}
+[10.052914] (-) TimerEvent: {}
+[10.153849] (-) TimerEvent: {}
+[10.254594] (-) TimerEvent: {}
+[10.287547] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.288154] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.288361] (very_simple_robot_simulator) StderrLine: {'line': b'   84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.288426] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.288479] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.288529] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.288576] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.288624] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.288668] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.288713] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.288756] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.288800] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.288866] (very_simple_robot_simulator) StderrLine: {'line': b'   86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.288910] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.288953] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.289001] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.289042] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.289084] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.289130] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.289173] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.333702] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.334197] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.334412] (very_simple_robot_simulator) StderrLine: {'line': b'   94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.334633] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.335000] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.335183] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.335424] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.335642] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.335791] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.335923] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.336049] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.336199] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.336332] (very_simple_robot_simulator) StderrLine: {'line': b'   96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.336455] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.336576] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.336696] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.336815] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1\x1b[m\x1b[K:\n'}
+[10.336932] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.337043] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.337156] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.354931] (-) TimerEvent: {}
+[10.446811] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.447256] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.447563] (very_simple_robot_simulator) StderrLine: {'line': b'   94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.447817] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.447892] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.447943] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.448005] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.448057] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.448104] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.448156] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.448205] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.448259] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.448314] (very_simple_robot_simulator) StderrLine: {'line': b'   96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.448363] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.448412] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.448500] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.448574] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.448629] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.448682] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.448737] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.455158] (-) TimerEvent: {}
+[10.481734] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.482072] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.482156] (very_simple_robot_simulator) StderrLine: {'line': b'   84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.482269] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.482380] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.482915] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.483140] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.483258] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.483319] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.483368] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.483413] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.483468] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.483537] (very_simple_robot_simulator) StderrLine: {'line': b'   86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.483607] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.483674] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.483742] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.483809] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.483878] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.483957] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.484031] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.555484] (-) TimerEvent: {}
+[10.656343] (-) TimerEvent: {}
+[10.757085] (-) TimerEvent: {}
+[10.765218] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:224:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.765561] (very_simple_robot_simulator) StderrLine: {'line': b'  224 | KinectSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[10.765627] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.765731] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.765842] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.765909] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.765970] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.766247] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.766304] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.776632] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:317:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.776993] (very_simple_robot_simulator) StderrLine: {'line': b'  317 | KinectSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[10.777131] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.777234] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.777331] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.777427] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.777770] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.777897] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.778003] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.831083] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.831525] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::LidarSimulator(std::string, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.831902] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:54:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_std_error\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.831972] (very_simple_robot_simulator) StderrLine: {'line': b'   54 |   float \x1b[01;35m\x1b[Km_std_error\x1b[m\x1b[K;\n'}
+[10.832028] (very_simple_robot_simulator) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832089] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[KCoordinateConverter LidarSimulator::m_converter\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832145] (very_simple_robot_simulator) StderrLine: {'line': b'   38 |   CoordinateConverter \x1b[01;35m\x1b[Km_converter\x1b[m\x1b[K;\n'}
+[10.832191] (very_simple_robot_simulator) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832258] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832308] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[10.832355] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832398] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.832445] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_converter\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832492] (very_simple_robot_simulator) StderrLine: {'line': b'   38 |   CoordinateConverter \x1b[01;35m\x1b[Km_converter\x1b[m\x1b[K;\n'}
+[10.832537] (very_simple_robot_simulator) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832579] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:34:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Mat LidarSimulator::m_global_map\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832623] (very_simple_robot_simulator) StderrLine: {'line': b'   34 |   cv::Mat \x1b[01;35m\x1b[Km_global_map\x1b[m\x1b[K;\n'}
+[10.832666] (very_simple_robot_simulator) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832710] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832753] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[10.832794] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.832835] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.832876] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_lidar_fov\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.832923] (very_simple_robot_simulator) StderrLine: {'line': b'   46 |   float \x1b[01;35m\x1b[Km_lidar_fov\x1b[m\x1b[K;\n'}
+[10.832965] (very_simple_robot_simulator) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.833006] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:44:7:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kint LidarSimulator::m_lidar_n_h_scans\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.833050] (very_simple_robot_simulator) StderrLine: {'line': b'   44 |   int \x1b[01;35m\x1b[Km_lidar_n_h_scans\x1b[m\x1b[K;\n'}
+[10.833137] (very_simple_robot_simulator) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.833187] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.833238] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[10.833285] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.833329] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.833372] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:62:35:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KLidarSimulator::m_image_transport\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.833418] (very_simple_robot_simulator) StderrLine: {'line': b'   62 |   image_transport::ImageTransport \x1b[01;35m\x1b[Km_image_transport\x1b[m\x1b[K;\n'}
+[10.833461] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.833502] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:56:8:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool LidarSimulator::m_publish_2d_map\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.833548] (very_simple_robot_simulator) StderrLine: {'line': b'   56 |   bool \x1b[01;35m\x1b[Km_publish_2d_map\x1b[m\x1b[K;\n'}
+[10.833591] (very_simple_robot_simulator) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.833634] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.833678] (very_simple_robot_simulator) StderrLine: {'line': b'   15 | \x1b[01;35m\x1b[KLidarSimulator\x1b[m\x1b[K::LidarSimulator( string node_name, bool publish_2d_map )\n'}
+[10.833724] (very_simple_robot_simulator) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.857382] (-) TimerEvent: {}
+[10.880622] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:\x1b[m\x1b[K At global scope:\n'}
+[10.881116] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:236:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.881230] (very_simple_robot_simulator) StderrLine: {'line': b'  236 | LidarSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[10.881295] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.881353] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[10.881401] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8\x1b[m\x1b[K,\n'}
+[10.881452] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.881501] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.881548] (very_simple_robot_simulator) StderrLine: {'line': b'  115 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.881595] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.893885] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:316:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.894246] (very_simple_robot_simulator) StderrLine: {'line': b'  316 | LidarSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg \x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[10.894378] (very_simple_robot_simulator) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[10.894497] (very_simple_robot_simulator) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7\x1b[m\x1b[K,\n'}
+[10.894608] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9\x1b[m\x1b[K,\n'}
+[10.894886] (very_simple_robot_simulator) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1\x1b[m\x1b[K:\n'}
+[10.895063] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.895291] (very_simple_robot_simulator) StderrLine: {'line': b'  124 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[10.895442] (very_simple_robot_simulator) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.957692] (-) TimerEvent: {}
+[11.058494] (-) TimerEvent: {}
+[11.159369] (-) TimerEvent: {}
+[11.260079] (-) TimerEvent: {}
+[11.360970] (-) TimerEvent: {}
+[11.461952] (-) TimerEvent: {}
+[11.562957] (-) TimerEvent: {}
+[11.663808] (-) TimerEvent: {}
+[11.764600] (-) TimerEvent: {}
+[11.865266] (-) TimerEvent: {}
+[11.966091] (-) TimerEvent: {}
+[12.066626] (-) TimerEvent: {}
+[12.167522] (-) TimerEvent: {}
+[12.268507] (-) TimerEvent: {}
+[12.369385] (-) TimerEvent: {}
+[12.470364] (-) TimerEvent: {}
+[12.571087] (-) TimerEvent: {}
+[12.671714] (-) TimerEvent: {}
+[12.772437] (-) TimerEvent: {}
+[12.873344] (-) TimerEvent: {}
+[12.973825] (-) TimerEvent: {}
+[13.074296] (-) TimerEvent: {}
+[13.174854] (-) TimerEvent: {}
+[13.275405] (-) TimerEvent: {}
+[13.375941] (-) TimerEvent: {}
+[13.476385] (-) TimerEvent: {}
+[13.576838] (-) TimerEvent: {}
+[13.677282] (-) TimerEvent: {}
+[13.777788] (-) TimerEvent: {}
+[13.878283] (-) TimerEvent: {}
+[13.978912] (-) TimerEvent: {}
+[14.079579] (-) TimerEvent: {}
+[14.180503] (-) TimerEvent: {}
+[14.281066] (-) TimerEvent: {}
+[14.381817] (-) TimerEvent: {}
+[14.482304] (-) TimerEvent: {}
+[14.582810] (-) TimerEvent: {}
+[14.683375] (-) TimerEvent: {}
+[14.784094] (-) TimerEvent: {}
+[14.884719] (-) TimerEvent: {}
+[14.985217] (-) TimerEvent: {}
+[15.085685] (-) TimerEvent: {}
+[15.186381] (-) TimerEvent: {}
+[15.286841] (-) TimerEvent: {}
+[15.387343] (-) TimerEvent: {}
+[15.487882] (-) TimerEvent: {}
+[15.588609] (-) TimerEvent: {}
+[15.689342] (-) TimerEvent: {}
+[15.789833] (-) TimerEvent: {}
+[15.890315] (-) TimerEvent: {}
+[15.990789] (-) TimerEvent: {}
+[16.091262] (-) TimerEvent: {}
+[16.191737] (-) TimerEvent: {}
+[16.292443] (-) TimerEvent: {}
+[16.393204] (-) TimerEvent: {}
+[16.494186] (-) TimerEvent: {}
+[16.595211] (-) TimerEvent: {}
+[16.695946] (-) TimerEvent: {}
+[16.796677] (-) TimerEvent: {}
+[16.897378] (-) TimerEvent: {}
+[16.997829] (-) TimerEvent: {}
+[17.098258] (-) TimerEvent: {}
+[17.198746] (-) TimerEvent: {}
+[17.299248] (-) TimerEvent: {}
+[17.399742] (-) TimerEvent: {}
+[17.500334] (-) TimerEvent: {}
+[17.600888] (-) TimerEvent: {}
+[17.701584] (-) TimerEvent: {}
+[17.802285] (-) TimerEvent: {}
+[17.902751] (-) TimerEvent: {}
+[17.935245] (cmd_vel_mux) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcmd_vel_mux.so\x1b[0m\n'}
+[18.002959] (-) TimerEvent: {}
+[18.103536] (-) TimerEvent: {}
+[18.204207] (-) TimerEvent: {}
+[18.304668] (-) TimerEvent: {}
+[18.405130] (-) TimerEvent: {}
+[18.505701] (-) TimerEvent: {}
+[18.606865] (-) TimerEvent: {}
+[18.673658] (cmd_vel_mux) StdoutLine: {'line': b'[100%] Built target cmd_vel_mux\n'}
+[18.688618] (cmd_vel_mux) CommandEnded: {'returncode': 0}
+[18.692039] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'install'}
+[18.692918] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/cmd_vel_mux'], 'cwd': '/home/maty/rob_movil_ws/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/cmd_vel_mux'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[18.699366] (cmd_vel_mux) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.700056] (cmd_vel_mux) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[18.700354] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node\n'}
+[18.701051] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so\n'}
+[18.701345] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp\n'}
+[18.701550] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml\n'}
+[18.702792] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py\n'}
+[18.703131] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py\n'}
+[18.703633] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux\n'}
+[18.703920] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux\n'}
+[18.704395] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh\n'}
+[18.704877] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv\n'}
+[18.705285] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh\n'}
+[18.705774] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv\n'}
+[18.706063] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash\n'}
+[18.706258] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh\n'}
+[18.706327] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh\n'}
+[18.706538] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv\n'}
+[18.707328] (cmd_vel_mux) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv\n'}
+[18.707528] (-) TimerEvent: {}
+[18.718524] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux\n'}
+[18.718817] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux\n'}
+[18.719249] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake\n'}
+[18.719477] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake\n'}
+[18.719752] (cmd_vel_mux) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.xml\n'}
+[18.722680] (cmd_vel_mux) CommandEnded: {'returncode': 0}
+[18.746712] (cmd_vel_mux) JobEnded: {'identifier': 'cmd_vel_mux', 'rc': 0}
+[18.807703] (-) TimerEvent: {}
+[18.908442] (-) TimerEvent: {}
+[19.008909] (-) TimerEvent: {}
+[19.109420] (-) TimerEvent: {}
+[19.209966] (-) TimerEvent: {}
+[19.310508] (-) TimerEvent: {}
+[19.411051] (-) TimerEvent: {}
+[19.511555] (-) TimerEvent: {}
+[19.612109] (-) TimerEvent: {}
+[19.712716] (-) TimerEvent: {}
+[19.813180] (-) TimerEvent: {}
+[19.913669] (-) TimerEvent: {}
+[20.014117] (-) TimerEvent: {}
+[20.114565] (-) TimerEvent: {}
+[20.215104] (-) TimerEvent: {}
+[20.315676] (-) TimerEvent: {}
+[20.416205] (-) TimerEvent: {}
+[20.516926] (-) TimerEvent: {}
+[20.617418] (-) TimerEvent: {}
+[20.717918] (-) TimerEvent: {}
+[20.818639] (-) TimerEvent: {}
+[20.919077] (-) TimerEvent: {}
+[21.019541] (-) TimerEvent: {}
+[21.119979] (-) TimerEvent: {}
+[21.220395] (-) TimerEvent: {}
+[21.320830] (-) TimerEvent: {}
+[21.421298] (-) TimerEvent: {}
+[21.521744] (-) TimerEvent: {}
+[21.622168] (-) TimerEvent: {}
+[21.722726] (-) TimerEvent: {}
+[21.823432] (-) TimerEvent: {}
+[21.923908] (-) TimerEvent: {}
+[22.024369] (-) TimerEvent: {}
+[22.124917] (-) TimerEvent: {}
+[22.225388] (-) TimerEvent: {}
+[22.325822] (-) TimerEvent: {}
+[22.426406] (-) TimerEvent: {}
+[22.527234] (-) TimerEvent: {}
+[22.627714] (-) TimerEvent: {}
+[22.728234] (-) TimerEvent: {}
+[22.829106] (-) TimerEvent: {}
+[22.929739] (-) TimerEvent: {}
+[23.030210] (-) TimerEvent: {}
+[23.130700] (-) TimerEvent: {}
+[23.231437] (-) TimerEvent: {}
+[23.331899] (-) TimerEvent: {}
+[23.432537] (-) TimerEvent: {}
+[23.533278] (-) TimerEvent: {}
+[23.633837] (-) TimerEvent: {}
+[23.734293] (-) TimerEvent: {}
+[23.760281] (very_simple_robot_simulator) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable kinect_simulator\x1b[0m\n'}
+[23.834435] (-) TimerEvent: {}
+[23.934872] (-) TimerEvent: {}
+[24.035358] (-) TimerEvent: {}
+[24.135811] (-) TimerEvent: {}
+[24.236328] (-) TimerEvent: {}
+[24.336874] (-) TimerEvent: {}
+[24.437353] (-) TimerEvent: {}
+[24.466442] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_simulator\x1b[0m\n'}
+[24.537534] (-) TimerEvent: {}
+[24.638123] (-) TimerEvent: {}
+[24.738786] (-) TimerEvent: {}
+[24.839320] (-) TimerEvent: {}
+[24.939950] (-) TimerEvent: {}
+[25.040525] (-) TimerEvent: {}
+[25.141062] (-) TimerEvent: {}
+[25.241558] (-) TimerEvent: {}
+[25.310488] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] Built target kinect_simulator\n'}
+[25.341702] (-) TimerEvent: {}
+[25.442193] (-) TimerEvent: {}
+[25.543025] (-) TimerEvent: {}
+[25.643525] (-) TimerEvent: {}
+[25.738421] (very_simple_robot_simulator) StdoutLine: {'line': b'[100%] Built target lidar_simulator\n'}
+[25.743661] (-) TimerEvent: {}
+[25.753040] (very_simple_robot_simulator) CommandEnded: {'returncode': 0}
+[25.754322] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'install'}
+[25.755709] (very_simple_robot_simulator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/very_simple_robot_simulator'], 'cwd': '/home/maty/rob_movil_ws/build/very_simple_robot_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/very_simple_robot_simulator'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[25.763467] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.764152] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.764972] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator\n'}
+[25.765311] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator\n'}
+[25.765874] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh\n'}
+[25.766378] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv\n'}
+[25.766714] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.766901] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.767110] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.767189] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.767248] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py\n'}
+[25.767615] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py\n'}
+[25.767717] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py\n'}
+[25.767893] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py\n'}
+[25.768001] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py\n'}
+[25.768506] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py\n'}
+[25.768744] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py\n'}
+[25.768834] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml\n'}
+[25.768888] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml\n'}
+[25.769107] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml\n'}
+[25.769552] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml\n'}
+[25.770057] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml\n'}
+[25.770365] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml\n'}
+[25.770436] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml\n'}
+[25.770488] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator\n'}
+[25.770765] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator\n'}
+[25.771026] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh\n'}
+[25.771125] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv\n'}
+[25.771467] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh\n'}
+[25.771554] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv\n'}
+[25.771609] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash\n'}
+[25.771661] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh\n'}
+[25.771721] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh\n'}
+[25.772141] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv\n'}
+[25.772461] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv\n'}
+[25.781418] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator\n'}
+[25.781791] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake\n'}
+[25.782314] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake\n'}
+[25.782521] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml\n'}
+[25.820657] (very_simple_robot_simulator) StdoutLine: {'line': b"Listing '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...\n"}
+[25.820946] (very_simple_robot_simulator) StdoutLine: {'line': b"Compiling '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py'...\n"}
+[25.829216] (very_simple_robot_simulator) CommandEnded: {'returncode': 0}
+[25.843999] (-) TimerEvent: {}
+[25.847788] (very_simple_robot_simulator) JobEnded: {'identifier': 'very_simple_robot_simulator', 'rc': 0}
+[25.849022] (-) EventReactorShutdown: {}

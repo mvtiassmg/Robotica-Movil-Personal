@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/maty/rob_movil_ws/src/mini_tarea_2/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/mini_tarea_2 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/mini_tarea_2/install/mini_tarea_2
+[0.014s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.088s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.136s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:66 (message):
+[0.136s]   ament_python_install_package() the Python package folder
+[0.136s]   '/home/maty/rob_movil_ws/src/mini_tarea_2/mini_tarea_2' doesn't contain an
+[0.136s]   '__init__.py' file
+[0.136s] Call Stack (most recent call first):
+[0.136s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[0.136s]   CMakeLists.txt:15 (ament_python_install_package)
+[0.136s] 
+[0.136s] [0m
+[0.136s] -- Configuring incomplete, errors occurred!
+[0.136s] See also "/home/maty/rob_movil_ws/src/mini_tarea_2/build/mini_tarea_2/CMakeFiles/CMakeOutput.log".
+[0.138s] Invoked command in '/home/maty/rob_movil_ws/src/mini_tarea_2/build/mini_tarea_2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/mini_tarea_2 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/mini_tarea_2/install/mini_tarea_2

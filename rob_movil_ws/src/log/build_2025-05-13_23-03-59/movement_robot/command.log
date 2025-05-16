@@ -1,0 +1,4 @@
+Invoking command in '/home/maty/rob_movil_ws/src/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/movement_robot -- -j22 -l22
+Invoked command in '/home/maty/rob_movil_ws/src/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/movement_robot -- -j22 -l22
+Invoking command in '/home/maty/rob_movil_ws/src/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/movement_robot
+Invoked command in '/home/maty/rob_movil_ws/src/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/movement_robot

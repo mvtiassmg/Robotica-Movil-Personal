@@ -1,0 +1,6 @@
+setup.py
+mini_tarea_2/__init__.py
+mini_tarea_2.egg-info/PKG-INFO
+mini_tarea_2.egg-info/SOURCES.txt
+mini_tarea_2.egg-info/dependency_links.txt
+mini_tarea_2.egg-info/top_level.txt

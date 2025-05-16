@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find-pkg-share very_simple_robot_simulator)/launch/run_all.xml" />
+    <node pkg="lab2_iic2685" name="dead_reckoning_nav" exec="dead_reckoning_nav.py" />
+    <node pkg="lab2_iic2685" name="pose_loader" exec="pose_loader.py" />
+
+</launch>

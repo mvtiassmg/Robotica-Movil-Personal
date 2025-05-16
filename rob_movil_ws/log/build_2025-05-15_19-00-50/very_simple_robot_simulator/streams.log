@@ -1,0 +1,269 @@
+[0.033s] Invoking command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/very_simple_robot_simulator -- -j22 -l22
+[0.066s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.236s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.417s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.421s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.432s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.443s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.498s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.500s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.986s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[2.986s] -- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+[4.296s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.316s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[4.320s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.325s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.327s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.418s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[4.521s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.609s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.610s] -- Configured cppcheck include dirs: /home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator
+[4.610s] -- Configured cppcheck exclude dirs and/or files: 
+[4.610s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.612s] -- Added test 'lint_cmake' to check CMake code style
+[4.612s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.615s] -- Added test 'uncrustify' to check C / C++ code style
+[4.615s] -- Configured uncrustify additional arguments: 
+[4.616s] -- Added test 'xmllint' to check XML markup files
+[4.617s] -- Configuring done
+[4.647s] -- Generating done
+[4.656s] -- Build files have been written to: /home/maty/rob_movil_ws/build/very_simple_robot_simulator
+[4.688s] [35m[1mConsolidate compiler generated dependencies of target kinect_simulator[0m
+[4.689s] [35m[1mConsolidate compiler generated dependencies of target lidar_simulator[0m
+[4.707s] [  0%] Built target ament_cmake_python_symlink_very_simple_robot_simulator
+[4.714s] [ 12%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator_node.cpp.o[0m
+[4.715s] [ 25%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator_node.cpp.o[0m
+[4.716s] [ 37%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/vsrs_utils.cpp.o[0m
+[4.717s] [ 50%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/kinect_simulator.cpp.o[0m
+[4.718s] [ 62%] [32mBuilding CXX object CMakeFiles/kinect_simulator.dir/src/vsrs_utils.cpp.o[0m
+[4.718s] [ 75%] [32mBuilding CXX object CMakeFiles/lidar_simulator.dir/src/lidar_simulator.cpp.o[0m
+[5.095s] running egg_info
+[5.096s] writing very_simple_robot_simulator.egg-info/PKG-INFO
+[5.097s] writing dependency_links to very_simple_robot_simulator.egg-info/dependency_links.txt
+[5.097s] writing top-level names to very_simple_robot_simulator.egg-info/top_level.txt
+[5.100s] reading manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[5.101s] writing manifest file 'very_simple_robot_simulator.egg-info/SOURCES.txt'
+[5.134s] [ 75%] Built target ament_cmake_python_build_very_simple_robot_simulator_egg
+[5.337s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:9[m[K:
+[5.337s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[5.337s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[5.338s]       |  [01;35m[K^~~~~~~[m[K
+[8.918s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7[m[K,
+[8.918s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[8.918s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[8.919s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[8.919s]       |                                                                                         [01;36m[K^[m[K
+[9.093s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:7[m[K,
+[9.093s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[9.093s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+[9.093s]    32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+[9.093s]       |                                                                                         [01;36m[K^[m[K
+[10.270s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[10.270s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.270s]    84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[10.270s]       |                                                                     [01;35m[K^[m[K
+[10.270s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.270s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[10.271s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[10.271s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.271s]   115 |     [01;36m[KConstPtr[m[K;
+[10.271s]       |     [01;36m[K^~~~~~~~[m[K
+[10.271s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[10.271s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.271s]    86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[10.271s]       |                                                                   [01;35m[K^[m[K
+[10.271s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.271s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[10.271s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator_node.cpp:1[m[K:
+[10.271s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.271s]   124 |     [01;36m[KConstPtr[m[K;
+[10.271s]       |     [01;36m[K^~~~~~~~[m[K
+[10.316s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[10.316s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.316s]    94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[10.317s]       |                                                                     [01;35m[K^[m[K
+[10.317s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.317s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[10.318s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[10.318s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.318s]   115 |     [01;36m[KConstPtr[m[K;
+[10.318s]       |     [01;36m[K^~~~~~~~[m[K
+[10.318s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[10.318s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.318s]    96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[10.318s]       |                                                                   [01;35m[K^[m[K
+[10.319s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.319s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[10.319s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator_node.cpp:1[m[K:
+[10.319s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.319s]   124 |     [01;36m[KConstPtr[m[K;
+[10.319s]       |     [01;36m[K^~~~~~~~[m[K
+[10.429s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.429s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:94:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.430s]    94 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[10.430s]       |                                                                     [01;35m[K^[m[K
+[10.430s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.430s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[10.430s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.430s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.430s]   115 |     [01;36m[KConstPtr[m[K;
+[10.430s]       |     [01;36m[K^~~~~~~~[m[K
+[10.430s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.430s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:96:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.430s]    96 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[10.430s]       |                                                                   [01;35m[K^[m[K
+[10.430s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.430s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[10.431s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.431s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.431s]   124 |     [01;36m[KConstPtr[m[K;
+[10.431s]       |     [01;36m[K^~~~~~~~[m[K
+[10.464s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.464s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:84:69:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.464s]    84 |   void new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K;
+[10.464s]       |                                                                     [01;35m[K^[m[K
+[10.465s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.465s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[10.465s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.465s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.465s]   115 |     [01;36m[KConstPtr[m[K;
+[10.465s]       |     [01;36m[K^~~~~~~~[m[K
+[10.465s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.465s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:86:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.466s]    86 |   void set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K;
+[10.466s]       |                                                                   [01;35m[K^[m[K
+[10.466s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.466s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[10.466s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.466s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.466s]   124 |     [01;36m[KConstPtr[m[K;
+[10.466s]       |     [01;36m[K^~~~~~~~[m[K
+[10.747s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:224:79:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.748s]   224 | KinectSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K
+[10.748s]       |                                                                               [01;35m[K^[m[K
+[10.748s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.748s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:8[m[K,
+[10.748s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.748s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.748s]   115 |     [01;36m[KConstPtr[m[K;
+[10.748s]       |     [01;36m[K^~~~~~~~[m[K
+[10.759s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:317:77:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.759s]   317 | KinectSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K
+[10.759s]       |                                                                             [01;35m[K^[m[K
+[10.759s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.759s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/kinect_simulator.h:9[m[K,
+[10.760s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/kinect_simulator.cpp:1[m[K:
+[10.760s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.760s]   124 |     [01;36m[KConstPtr[m[K;
+[10.760s]       |     [01;36m[K^~~~~~~~[m[K
+[10.813s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.814s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:[m[K In constructor ‘[01m[KLidarSimulator::LidarSimulator(std::string, bool)[m[K’:
+[10.814s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:54:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_std_error[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.814s]    54 |   float [01;35m[Km_std_error[m[K;
+[10.814s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[10.814s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KCoordinateConverter LidarSimulator::m_converter[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.814s]    38 |   CoordinateConverter [01;35m[Km_converter[m[K;
+[10.814s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[10.814s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.814s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[10.814s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.814s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.814s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:38:23:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_converter[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.814s]    38 |   CoordinateConverter [01;35m[Km_converter[m[K;
+[10.814s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:34:11:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::Mat LidarSimulator::m_global_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    34 |   cv::Mat [01;35m[Km_global_map[m[K;
+[10.815s]       |           [01;35m[K^~~~~~~~~~~~[m[K
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[10.815s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.815s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:46:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_lidar_fov[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    46 |   float [01;35m[Km_lidar_fov[m[K;
+[10.815s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:44:7:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint LidarSimulator::m_lidar_n_h_scans[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    44 |   int [01;35m[Km_lidar_n_h_scans[m[K;
+[10.815s]       |       [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[10.815s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.815s] In file included from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:62:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KLidarSimulator::m_image_transport[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    62 |   image_transport::ImageTransport [01;35m[Km_image_transport[m[K;
+[10.815s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[10.815s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:56:8:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool LidarSimulator::m_publish_2d_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.815s]    56 |   bool [01;35m[Km_publish_2d_map[m[K;
+[10.816s]       |        [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[10.816s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:15:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[10.816s]    15 | [01;35m[KLidarSimulator[m[K::LidarSimulator( string node_name, bool publish_2d_map )
+[10.816s]       | [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.863s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:[m[K At global scope:
+[10.863s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:236:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.863s]   236 | LidarSimulator::new_pose( const geometry_msgs::msg::Pose::ConstPtr& pose_msg [01;35m[K)[m[K
+[10.863s]       |                                                                              [01;35m[K^[m[K
+[10.863s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose.hpp:7[m[K,
+[10.863s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:8[m[K,
+[10.863s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.863s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.864s]   115 |     [01;36m[KConstPtr[m[K;
+[10.864s]       |     [01;36m[K^~~~~~~~[m[K
+[10.876s] [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:316:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Knav_msgs::msg::OccupancyGrid_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.876s]   316 | LidarSimulator::set_map( const nav_msgs::msg::OccupancyGrid::ConstPtr& msg [01;35m[K)[m[K
+[10.876s]       |                                                                            [01;35m[K^[m[K
+[10.876s] In file included from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:7[m[K,
+[10.877s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/include/very_simple_robot_simulator/lidar_simulator.h:9[m[K,
+[10.877s]                  from [01m[K/home/maty/rob_movil_ws/src/very_simple_robot_simulator/src/lidar_simulator.cpp:1[m[K:
+[10.877s] [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:124:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.877s]   124 |     [01;36m[KConstPtr[m[K;
+[10.878s]       |     [01;36m[K^~~~~~~~[m[K
+[23.742s] [ 87%] [32m[1mLinking CXX executable kinect_simulator[0m
+[24.449s] [100%] [32m[1mLinking CXX executable lidar_simulator[0m
+[25.293s] [100%] Built target kinect_simulator
+[25.721s] [100%] Built target lidar_simulator
+[25.735s] Invoked command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/very_simple_robot_simulator -- -j22 -l22
+[25.738s] Invoking command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/very_simple_robot_simulator
+[25.746s] -- Install configuration: ""
+[25.746s] -- Execute custom install script
+[25.747s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator
+[25.747s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator
+[25.748s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.sh
+[25.748s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/pythonpath.dsv
+[25.749s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/PKG-INFO
+[25.749s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/SOURCES.txt
+[25.749s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/dependency_links.txt
+[25.749s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator-0.0.0-py3.10.egg-info/top_level.txt
+[25.749s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py
+[25.750s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kinect_simulator.py
+[25.750s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/kobuki_simulator.py
+[25.750s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/lidar_simulator.py
+[25.750s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/rangefinder.py
+[25.751s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/utils.py
+[25.751s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/very_simple_robot_simulator/world_state_gui.py
+[25.751s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/lidar_simulator.xml
+[25.751s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator.xml
+[25.751s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/minimal_simulator_py.xml
+[25.752s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator.xml
+[25.752s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/openni_simulator_py.xml
+[25.752s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/run_all.xml
+[25.752s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator//launch/world_state.xml
+[25.752s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/package_run_dependencies/very_simple_robot_simulator
+[25.753s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/parent_prefix_path/very_simple_robot_simulator
+[25.753s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.sh
+[25.753s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/ament_prefix_path.dsv
+[25.753s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.sh
+[25.754s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/environment/path.dsv
+[25.754s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.bash
+[25.754s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.sh
+[25.754s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.zsh
+[25.754s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/local_setup.dsv
+[25.754s] -- Symlinking: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv
+[25.764s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/ament_index/resource_index/packages/very_simple_robot_simulator
+[25.764s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig.cmake
+[25.764s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/cmake/very_simple_robot_simulatorConfig-version.cmake
+[25.765s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.xml
+[25.803s] Listing '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator'...
+[25.803s] Compiling '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages/very_simple_robot_simulator/__init__.py'...
+[25.812s] Invoked command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/very_simple_robot_simulator

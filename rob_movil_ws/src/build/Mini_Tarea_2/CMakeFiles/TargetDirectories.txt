@@ -1,0 +1,9 @@
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/uninstall.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/Mini_Tarea_2_uninstall.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/test.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/edit_cache.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/rebuild_cache.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/list_install_components.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/install.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/install/local.dir
+/home/maty/rob_movil_ws/src/build/Mini_Tarea_2/CMakeFiles/install/strip.dir

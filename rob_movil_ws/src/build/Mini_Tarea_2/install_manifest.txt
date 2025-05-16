@@ -1,0 +1,15 @@
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/package_run_dependencies/Mini_Tarea_2
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/parent_prefix_path/Mini_Tarea_2
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/ament_prefix_path.sh
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/ament_prefix_path.dsv
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/path.sh
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/path.dsv
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.bash
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.sh
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.zsh
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.dsv
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/package.dsv
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/packages/Mini_Tarea_2
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/cmake/Mini_Tarea_2Config.cmake
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/cmake/Mini_Tarea_2Config-version.cmake
+/home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/package.xml

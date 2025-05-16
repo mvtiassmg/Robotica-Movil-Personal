@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5c7cef170b0465e8d8aa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mini_tarea_2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mini_tarea_2_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mini_tarea_2_egg-a0cdbaa45fa6b7f5ab8f.json",
+					"name" : "ament_cmake_python_build_mini_tarea_2_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mini_tarea_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mini_tarea_2-d37e0ec649fbe5c8e5da.json",
+					"name" : "ament_cmake_python_copy_mini_tarea_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mini_tarea_2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mini_tarea_2_uninstall-97ea2d87c34629693a4f.json",
+					"name" : "mini_tarea_2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0271b7f2620a6fd519a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maty/rob_movil_ws/src/build/mini_tarea_2",
+		"source" : "/home/maty/rob_movil_ws/src/mini_tarea_2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

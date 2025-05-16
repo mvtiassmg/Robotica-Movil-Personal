@@ -1,0 +1,4 @@
+source;share/Mini_Tarea_2/local_setup.bash
+source;share/Mini_Tarea_2/local_setup.dsv
+source;share/Mini_Tarea_2/local_setup.sh
+source;share/Mini_Tarea_2/local_setup.zsh

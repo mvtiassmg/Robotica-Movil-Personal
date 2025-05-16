@@ -1,0 +1,15 @@
+/home/maty/rob_movil_ws/install/movement_robot/share/ament_index/resource_index/package_run_dependencies/movement_robot
+/home/maty/rob_movil_ws/install/movement_robot/share/ament_index/resource_index/parent_prefix_path/movement_robot
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/environment/ament_prefix_path.sh
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/environment/ament_prefix_path.dsv
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/environment/path.sh
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/environment/path.dsv
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/local_setup.bash
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/local_setup.sh
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/local_setup.zsh
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/local_setup.dsv
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.dsv
+/home/maty/rob_movil_ws/install/movement_robot/share/ament_index/resource_index/packages/movement_robot
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/cmake/movement_robotConfig.cmake
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/cmake/movement_robotConfig-version.cmake
+/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.xml

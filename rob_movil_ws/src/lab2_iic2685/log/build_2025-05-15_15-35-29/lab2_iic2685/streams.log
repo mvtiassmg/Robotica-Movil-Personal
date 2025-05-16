@@ -1,0 +1,55 @@
+[0.028s] Invoking command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685 -- -j22 -l22
+[0.152s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.358s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.479s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.654s] -- Configured cppcheck include dirs: 
+[0.654s] -- Configured cppcheck exclude dirs and/or files: 
+[0.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.663s] -- Added test 'lint_cmake' to check CMake code style
+[0.664s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.674s] -- Added test 'uncrustify' to check C / C++ code style
+[0.675s] -- Configured uncrustify additional arguments: 
+[0.677s] -- Added test 'xmllint' to check XML markup files
+[0.681s] -- Configuring done
+[0.700s] -- Generating done
+[0.705s] -- Build files have been written to: /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685
+[0.750s] Built target ament_cmake_python_symlink_lab2_iic2685
+[1.040s] running egg_info
+[1.041s] writing lab2_iic2685.egg-info/PKG-INFO
+[1.041s] writing dependency_links to lab2_iic2685.egg-info/dependency_links.txt
+[1.042s] writing top-level names to lab2_iic2685.egg-info/top_level.txt
+[1.046s] reading manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+[1.047s] writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+[1.076s] Built target ament_cmake_python_build_lab2_iic2685_egg
+[1.088s] Invoked command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685 -- -j22 -l22
+[1.098s] Invoking command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685
+[1.104s] -- Install configuration: ""
+[1.104s] -- Execute custom install script
+[1.105s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.sh
+[1.105s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.dsv
+[1.105s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/PKG-INFO
+[1.105s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.106s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.106s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/top_level.txt
+[1.106s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685/__init__.py
+[1.106s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/lib/lab2_iic2685/dead_reckoning_nav.py
+[1.106s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/lib/lab2_iic2685/pose_loader.py
+[1.114s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/mini_tarea_2/launch/avanzar_y_rotar.py
+[1.114s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/ament_index/resource_index/package_run_dependencies/lab2_iic2685
+[1.114s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/ament_index/resource_index/parent_prefix_path/lab2_iic2685
+[1.115s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.sh
+[1.115s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.dsv
+[1.116s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/path.sh
+[1.117s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/path.dsv
+[1.117s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/local_setup.bash
+[1.117s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/local_setup.sh
+[1.117s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/local_setup.zsh
+[1.117s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/local_setup.dsv
+[1.117s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/package.dsv
+[1.127s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/ament_index/resource_index/packages/lab2_iic2685
+[1.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config.cmake
+[1.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config-version.cmake
+[1.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/package.xml
+[1.167s] Listing '/home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685'...
+[1.174s] Invoked command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685

@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685
+Built target ament_cmake_python_symlink_lab2_iic2685
+running egg_info
+writing lab2_iic2685.egg-info/PKG-INFO
+writing dependency_links to lab2_iic2685.egg-info/dependency_links.txt
+writing top-level names to lab2_iic2685.egg-info/top_level.txt
+reading manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_lab2_iic2685_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.sh
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685/__init__.py
+-- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/lib/lab2_iic2685/dead_reckoning_nav.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/maty/rob_movil_ws/src/lab2_iic2685/src/avanzar_y_rotar'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

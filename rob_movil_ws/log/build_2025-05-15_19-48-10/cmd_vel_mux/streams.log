@@ -1,0 +1,68 @@
+[0.028s] Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/maty/rob_movil_ws/src/cmd_vel_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/install/cmd_vel_mux
+[0.060s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.243s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.383s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.387s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.394s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.466s] -- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)
+[0.479s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.496s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.498s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.851s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.879s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.966s] -- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[2.966s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.995s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.995s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.005s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.005s] -- Configured cppcheck include dirs: /home/maty/rob_movil_ws/src/cmd_vel_mux/include
+[3.006s] -- Configured cppcheck exclude dirs and/or files: 
+[3.007s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.007s] -- Configured cpplint exclude dirs and/or files: 
+[3.008s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.008s] -- Added test 'lint_cmake' to check CMake code style
+[3.009s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.011s] -- Added test 'uncrustify' to check C / C++ code style
+[3.011s] -- Configured uncrustify additional arguments: 
+[3.012s] -- Added test 'xmllint' to check XML markup files
+[3.013s] -- Configuring done
+[3.030s] -- Generating done
+[3.036s] -- Build files have been written to: /home/maty/rob_movil_ws/build/cmd_vel_mux
+[3.049s] Invoked command in '/home/maty/rob_movil_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/maty/rob_movil_ws/src/cmd_vel_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/install/cmd_vel_mux
+[3.049s] Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maty/rob_movil_ws/build/cmd_vel_mux -- -j22 -l22
+[3.087s] [35m[1mConsolidate compiler generated dependencies of target cmd_vel_mux_node[0m
+[3.087s] [35m[1mConsolidate compiler generated dependencies of target cmd_vel_mux[0m
+[3.103s] [ 50%] Built target cmd_vel_mux
+[3.104s] [100%] Built target cmd_vel_mux_node
+[3.117s] Invoked command in '/home/maty/rob_movil_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/maty/rob_movil_ws/build/cmd_vel_mux -- -j22 -l22
+[3.120s] Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/maty/rob_movil_ws/build/cmd_vel_mux
+[3.125s] -- Install configuration: ""
+[3.126s] -- Execute custom install script
+[3.126s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/lib/cmd_vel_mux/cmd_vel_mux_node
+[3.126s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/lib/libcmd_vel_mux.so
+[3.127s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/include/cmd_vel_mux/cmd_vel_mux.hpp
+[3.127s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/config/cmd_vel_mux_params.yaml
+[3.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-composed-launch.py
+[3.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/launch/cmd_vel_mux-launch.py
+[3.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/package_run_dependencies/cmd_vel_mux
+[3.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/parent_prefix_path/cmd_vel_mux
+[3.128s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.sh
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/ament_prefix_path.dsv
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.sh
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/environment/path.dsv
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.bash
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.sh
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.zsh
+[3.129s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/local_setup.dsv
+[3.130s] -- Symlinking: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv
+[3.138s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/packages/cmd_vel_mux
+[3.139s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/ament_index/resource_index/rclcpp_components/cmd_vel_mux
+[3.139s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig.cmake
+[3.139s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/cmake/cmd_vel_muxConfig-version.cmake
+[3.139s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.xml
+[3.142s] Invoked command in '/home/maty/rob_movil_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/maty/rob_movil_ws/build/cmd_vel_mux

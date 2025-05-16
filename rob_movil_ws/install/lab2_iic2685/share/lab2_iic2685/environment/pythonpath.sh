@@ -1,0 +1,1 @@
+/home/maty/rob_movil_ws/build/lab2_iic2685/ament_cmake_environment_hooks/pythonpath.sh

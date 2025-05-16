@@ -1,0 +1,379 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (cmd_vel_mux) JobQueued: {'identifier': 'cmd_vel_mux', 'dependencies': OrderedDict()}
+[0.000234] (lab2_iic2685) JobQueued: {'identifier': 'lab2_iic2685', 'dependencies': OrderedDict()}
+[0.000278] (mini_tarea_2) JobQueued: {'identifier': 'mini_tarea_2', 'dependencies': OrderedDict()}
+[0.000319] (very_simple_robot_simulator) JobQueued: {'identifier': 'very_simple_robot_simulator', 'dependencies': OrderedDict()}
+[0.001498] (cmd_vel_mux) JobStarted: {'identifier': 'cmd_vel_mux'}
+[0.008531] (lab2_iic2685) JobStarted: {'identifier': 'lab2_iic2685'}
+[0.012136] (mini_tarea_2) JobStarted: {'identifier': 'mini_tarea_2'}
+[0.019448] (very_simple_robot_simulator) JobStarted: {'identifier': 'very_simple_robot_simulator'}
+[0.026150] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'cmake'}
+[0.027434] (cmd_vel_mux) JobProgress: {'identifier': 'cmd_vel_mux', 'progress': 'build'}
+[0.028730] (cmd_vel_mux) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/cmd_vel_mux', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/cmd_vel_mux', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/cmd_vel_mux'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.032600] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'cmake'}
+[0.034758] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'build'}
+[0.034898] (lab2_iic2685) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/lab2_iic2685', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/lab2_iic2685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/lab2_iic2685'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.037225] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'cmake'}
+[0.039131] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'build'}
+[0.039213] (mini_tarea_2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/maty/rob_movil_ws/build/mini_tarea_2', '--', '-j22', '-l22'], 'cwd': '/home/maty/rob_movil_ws/build/mini_tarea_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/mini_tarea_2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.047344] (very_simple_robot_simulator) JobProgress: {'identifier': 'very_simple_robot_simulator', 'progress': 'cmake'}
+[0.049822] (very_simple_robot_simulator) Command: {'cmd': ['/usr/bin/cmake', '/home/maty/rob_movil_ws/src/very_simple_robot_simulator', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/install/very_simple_robot_simulator'], 'cwd': '/home/maty/rob_movil_ws/build/very_simple_robot_simulator', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/very_simple_robot_simulator'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.059985] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.060337] (very_simple_robot_simulator) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.060426] (very_simple_robot_simulator) StderrLine: {'line': b'  CMake.\n'}
+[0.060490] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[0.060552] (very_simple_robot_simulator) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.060616] (very_simple_robot_simulator) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.060740] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[0.060904] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[0.071739] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.098549] (lab2_iic2685) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_lab2_iic2685\n'}
+[0.099044] (mini_tarea_2) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_mini_tarea_2\n'}
+[0.099139] (-) TimerEvent: {}
+[0.199467] (-) TimerEvent: {}
+[0.248151] (cmd_vel_mux) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.262879] (cmd_vel_mux) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.299613] (-) TimerEvent: {}
+[0.385121] (lab2_iic2685) StdoutLine: {'line': b'running egg_info\n'}
+[0.386350] (lab2_iic2685) StdoutLine: {'line': b'writing lab2_iic2685.egg-info/PKG-INFO\n'}
+[0.386768] (lab2_iic2685) StdoutLine: {'line': b'writing dependency_links to lab2_iic2685.egg-info/dependency_links.txt\n'}
+[0.387936] (lab2_iic2685) StdoutLine: {'line': b'writing top-level names to lab2_iic2685.egg-info/top_level.txt\n'}
+[0.389207] (mini_tarea_2) StdoutLine: {'line': b'running egg_info\n'}
+[0.391884] (mini_tarea_2) StdoutLine: {'line': b'writing mini_tarea_2.egg-info/PKG-INFO\n'}
+[0.392305] (mini_tarea_2) StdoutLine: {'line': b'writing dependency_links to mini_tarea_2.egg-info/dependency_links.txt\n'}
+[0.392948] (mini_tarea_2) StdoutLine: {'line': b'writing top-level names to mini_tarea_2.egg-info/top_level.txt\n'}
+[0.393230] (lab2_iic2685) StdoutLine: {'line': b"reading manifest file 'lab2_iic2685.egg-info/SOURCES.txt'\n"}
+[0.394144] (lab2_iic2685) StdoutLine: {'line': b"writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'\n"}
+[0.396455] (mini_tarea_2) StdoutLine: {'line': b"reading manifest file 'mini_tarea_2.egg-info/SOURCES.txt'\n"}
+[0.397421] (mini_tarea_2) StdoutLine: {'line': b"writing manifest file 'mini_tarea_2.egg-info/SOURCES.txt'\n"}
+[0.399734] (-) TimerEvent: {}
+[0.431794] (lab2_iic2685) StdoutLine: {'line': b'Built target ament_cmake_python_build_lab2_iic2685_egg\n'}
+[0.433867] (mini_tarea_2) StdoutLine: {'line': b'Built target ament_cmake_python_build_mini_tarea_2_egg\n'}
+[0.436236] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.439355] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.443715] (lab2_iic2685) CommandEnded: {'returncode': 0}
+[0.446125] (lab2_iic2685) JobProgress: {'identifier': 'lab2_iic2685', 'progress': 'install'}
+[0.449888] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.455224] (lab2_iic2685) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/lab2_iic2685'], 'cwd': '/home/maty/rob_movil_ws/build/lab2_iic2685', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/lab2_iic2685'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.456779] (mini_tarea_2) CommandEnded: {'returncode': 0}
+[0.457616] (mini_tarea_2) JobProgress: {'identifier': 'mini_tarea_2', 'progress': 'install'}
+[0.459029] (mini_tarea_2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/maty/rob_movil_ws/build/mini_tarea_2'], 'cwd': '/home/maty/rob_movil_ws/build/mini_tarea_2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'maty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/maty'), ('OLDPWD', '/home/maty/rob_movil_ws/install'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/maty/rob_movil_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'maty'), ('NAME', 'LAPTOP-PPEH9OE5'), ('WSL_INTEROP', '/run/WSL/52499_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Matias Muñoz G/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matias Muñoz G/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'e2f7536a-9b38-499f-9353-934c90887f7e'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/maty/rob_movil_ws/build/mini_tarea_2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/very_simple_robot_simulator/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages:/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/maty/rob_movil_ws/install/very_simple_robot_simulator:/home/maty/rob_movil_ws/install/movement_robot:/home/maty/rob_movil_ws/install/mini_tarea_2:/home/maty/rob_movil_ws/install/lab2_iic2685:/home/maty/rob_movil_ws/install/cmd_vel_mux:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.461873] (lab2_iic2685) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.462324] (lab2_iic2685) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.462626] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.sh\n'}
+[0.463033] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.dsv\n'}
+[0.463439] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.463782] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.464223] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464339] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.464447] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.464749] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685/__init__.py\n'}
+[0.464979] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/lib/lab2_iic2685/dead_reckoning_nav.py\n'}
+[0.465096] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/lib/lab2_iic2685/pose_loader.py\n'}
+[0.465494] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/launch/avanzar_y_rotar.xml\n'}
+[0.466038] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/package_run_dependencies/lab2_iic2685\n'}
+[0.466221] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/parent_prefix_path/lab2_iic2685\n'}
+[0.466353] (mini_tarea_2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.466660] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.sh\n'}
+[0.466724] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/ament_prefix_path.dsv\n'}
+[0.466776] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/path.sh\n'}
+[0.466826] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/environment/path.dsv\n'}
+[0.466875] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.bash\n'}
+[0.466924] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.sh\n'}
+[0.466971] (mini_tarea_2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.467312] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.sh\n'}
+[0.467445] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.zsh\n'}
+[0.467802] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.dsv\n'}
+[0.468061] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/local_setup.dsv\n'}
+[0.468120] (lab2_iic2685) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.dsv\n'}
+[0.468504] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.468730] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.468988] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.469331] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.469541] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2/__init__.py\n'}
+[0.469668] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/pid_controller.py\n'}
+[0.469985] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/virtual_robot.py\n'}
+[0.470102] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/launch/launch.py\n'}
+[0.470570] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/package_run_dependencies/mini_tarea_2\n'}
+[0.470825] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/parent_prefix_path/mini_tarea_2\n'}
+[0.471175] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.sh\n'}
+[0.471537] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.dsv\n'}
+[0.471640] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.sh\n'}
+[0.471763] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.dsv\n'}
+[0.472027] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.bash\n'}
+[0.472619] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.sh\n'}
+[0.472723] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.zsh\n'}
+[0.472776] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.dsv\n'}
+[0.472826] (mini_tarea_2) StdoutLine: {'line': b'-- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.dsv\n'}
+[0.479449] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/ament_index/resource_index/packages/lab2_iic2685\n'}
+[0.479890] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config.cmake\n'}
+[0.480047] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/cmake/lab2_iic2685Config-version.cmake\n'}
+[0.480110] (lab2_iic2685) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.xml\n'}
+[0.480814] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/packages/mini_tarea_2\n'}
+[0.481113] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config.cmake\n'}
+[0.481480] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config-version.cmake\n'}
+[0.481585] (mini_tarea_2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.xml\n'}
+[0.484831] (cmd_vel_mux) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499888] (-) TimerEvent: {}
+[0.518559] (mini_tarea_2) StdoutLine: {'line': b"Listing '/home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2'...\n"}
+[0.519917] (lab2_iic2685) StdoutLine: {'line': b"Listing '/home/maty/rob_movil_ws/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685'...\n"}
+[0.530188] (mini_tarea_2) CommandEnded: {'returncode': 0}
+[0.538503] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[0.552392] (mini_tarea_2) JobEnded: {'identifier': 'mini_tarea_2', 'rc': 0}
+[0.553722] (lab2_iic2685) CommandEnded: {'returncode': 0}
+[0.554053] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.569803] (lab2_iic2685) JobEnded: {'identifier': 'lab2_iic2685', 'rc': 0}
+[0.575581] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.577449] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600044] (-) TimerEvent: {}
+[0.700512] (-) TimerEvent: {}
+[0.800977] (-) TimerEvent: {}
+[0.901479] (-) TimerEvent: {}
+[1.001938] (-) TimerEvent: {}
+[1.102382] (-) TimerEvent: {}
+[1.202829] (-) TimerEvent: {}
+[1.217394] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[1.217920] (very_simple_robot_simulator) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.218041] (very_simple_robot_simulator) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[1.218113] (very_simple_robot_simulator) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.218182] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[1.218245] (very_simple_robot_simulator) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[1.218310] (very_simple_robot_simulator) StderrLine: {'line': b'  of the following names:\n'}
+[1.218373] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[1.218435] (very_simple_robot_simulator) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[1.218497] (very_simple_robot_simulator) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[1.218554] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[1.218615] (very_simple_robot_simulator) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[1.218673] (very_simple_robot_simulator) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[1.218737] (very_simple_robot_simulator) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[1.218790] (very_simple_robot_simulator) StderrLine: {'line': b'  installed.\n'}
+[1.218844] (very_simple_robot_simulator) StderrLine: {'line': b'\n'}
+[1.218894] (very_simple_robot_simulator) StderrLine: {'line': b'\x1b[0m\n'}
+[1.218947] (very_simple_robot_simulator) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.219025] (very_simple_robot_simulator) StdoutLine: {'line': b'See also "/home/maty/rob_movil_ws/build/very_simple_robot_simulator/CMakeFiles/CMakeOutput.log".\n'}
+[1.220858] (very_simple_robot_simulator) CommandEnded: {'returncode': 1}
+[1.243634] (very_simple_robot_simulator) JobEnded: {'identifier': 'very_simple_robot_simulator', 'rc': 1}
+[1.302981] (-) TimerEvent: {}
+[1.403431] (-) TimerEvent: {}
+[1.503949] (-) TimerEvent: {}
+[1.604507] (-) TimerEvent: {}
+[1.705049] (-) TimerEvent: {}
+[1.805527] (-) TimerEvent: {}
+[1.906051] (-) TimerEvent: {}
+[2.006599] (-) TimerEvent: {}
+[2.107185] (-) TimerEvent: {}
+[2.207641] (-) TimerEvent: {}
+[2.308158] (-) TimerEvent: {}
+[2.408652] (-) TimerEvent: {}
+[2.509258] (-) TimerEvent: {}
+[2.609735] (-) TimerEvent: {}
+[2.710289] (-) TimerEvent: {}
+[2.810728] (-) TimerEvent: {}
+[2.911205] (-) TimerEvent: {}
+[3.011795] (-) TimerEvent: {}
+[3.112447] (-) TimerEvent: {}
+[3.212925] (-) TimerEvent: {}
+[3.313414] (-) TimerEvent: {}
+[3.413848] (-) TimerEvent: {}
+[3.514297] (-) TimerEvent: {}
+[3.614781] (-) TimerEvent: {}
+[3.715314] (-) TimerEvent: {}
+[3.815833] (-) TimerEvent: {}
+[3.916297] (-) TimerEvent: {}
+[4.016745] (-) TimerEvent: {}
+[4.117208] (-) TimerEvent: {}
+[4.217647] (-) TimerEvent: {}
+[4.318315] (-) TimerEvent: {}
+[4.418810] (-) TimerEvent: {}
+[4.519322] (-) TimerEvent: {}
+[4.619956] (-) TimerEvent: {}
+[4.720629] (-) TimerEvent: {}
+[4.821084] (-) TimerEvent: {}
+[4.921563] (-) TimerEvent: {}
+[5.022073] (-) TimerEvent: {}
+[5.122509] (-) TimerEvent: {}
+[5.222953] (-) TimerEvent: {}
+[5.323440] (-) TimerEvent: {}
+[5.423981] (-) TimerEvent: {}
+[5.524452] (-) TimerEvent: {}
+[5.534571] (cmd_vel_mux) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.584576] (cmd_vel_mux) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[5.613141] (cmd_vel_mux) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.624561] (-) TimerEvent: {}
+[5.696531] (cmd_vel_mux) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 1.0.8 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)\n'}
+[5.698254] (cmd_vel_mux) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.724692] (-) TimerEvent: {}
+[5.728133] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.728336] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.728399] (cmd_vel_mux) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.740605] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.741183] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/maty/rob_movil_ws/src/cmd_vel_mux/include\n'}
+[5.741324] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.743116] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.743216] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.743737] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.744814] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.745257] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.747706] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.747802] (cmd_vel_mux) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.748369] (cmd_vel_mux) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.749892] (cmd_vel_mux) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.773497] (cmd_vel_mux) StdoutLine: {'line': b'-- Generating done\n'}
+[5.781477] (cmd_vel_mux) StdoutLine: {'line': b'-- Build files have been written to: /home/maty/rob_movil_ws/build/cmd_vel_mux\n'}
+[5.811278] (cmd_vel_mux) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_mux\x1b[0m\n'}
+[5.811882] (cmd_vel_mux) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cmd_vel_mux_node\x1b[0m\n'}
+[5.824968] (-) TimerEvent: {}
+[5.830928] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] Built target cmd_vel_mux_node\n'}
+[5.831332] (cmd_vel_mux) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cmd_vel_mux.dir/src/cmd_vel_mux.cpp.o\x1b[0m\n'}
+[5.925126] (-) TimerEvent: {}
+[6.025584] (-) TimerEvent: {}
+[6.126066] (-) TimerEvent: {}
+[6.226502] (-) TimerEvent: {}
+[6.326957] (-) TimerEvent: {}
+[6.427416] (-) TimerEvent: {}
+[6.527936] (-) TimerEvent: {}
+[6.628562] (-) TimerEvent: {}
+[6.729278] (-) TimerEvent: {}
+[6.829865] (-) TimerEvent: {}
+[6.930361] (-) TimerEvent: {}
+[7.031065] (-) TimerEvent: {}
+[7.131619] (-) TimerEvent: {}
+[7.232157] (-) TimerEvent: {}
+[7.332763] (-) TimerEvent: {}
+[7.433351] (-) TimerEvent: {}
+[7.533945] (-) TimerEvent: {}
+[7.634560] (-) TimerEvent: {}
+[7.735252] (-) TimerEvent: {}
+[7.835793] (-) TimerEvent: {}
+[7.936530] (-) TimerEvent: {}
+[8.037025] (-) TimerEvent: {}
+[8.137570] (-) TimerEvent: {}
+[8.238095] (-) TimerEvent: {}
+[8.338587] (-) TimerEvent: {}
+[8.439049] (-) TimerEvent: {}
+[8.539633] (-) TimerEvent: {}
+[8.640283] (-) TimerEvent: {}
+[8.740736] (-) TimerEvent: {}
+[8.841191] (-) TimerEvent: {}
+[8.941632] (-) TimerEvent: {}
+[9.042116] (-) TimerEvent: {}
+[9.142650] (-) TimerEvent: {}
+[9.243520] (-) TimerEvent: {}
+[9.343973] (-) TimerEvent: {}
+[9.445038] (-) TimerEvent: {}
+[9.545821] (-) TimerEvent: {}
+[9.646368] (-) TimerEvent: {}
+[9.746885] (-) TimerEvent: {}
+[9.847391] (-) TimerEvent: {}
+[9.947919] (-) TimerEvent: {}
+[10.048530] (-) TimerEvent: {}
+[10.149112] (-) TimerEvent: {}
+[10.249713] (-) TimerEvent: {}
+[10.350223] (-) TimerEvent: {}
+[10.450930] (-) TimerEvent: {}
+[10.551633] (-) TimerEvent: {}
+[10.652209] (-) TimerEvent: {}
+[10.752657] (-) TimerEvent: {}
+[10.853215] (-) TimerEvent: {}
+[10.953772] (-) TimerEvent: {}
+[11.054407] (-) TimerEvent: {}
+[11.155435] (-) TimerEvent: {}
+[11.255992] (-) TimerEvent: {}
+[11.356479] (-) TimerEvent: {}
+[11.456964] (-) TimerEvent: {}
+[11.557477] (-) TimerEvent: {}
+[11.658153] (-) TimerEvent: {}
+[11.758926] (-) TimerEvent: {}
+[11.859477] (-) TimerEvent: {}
+[11.959993] (-) TimerEvent: {}
+[12.060513] (-) TimerEvent: {}
+[12.161016] (-) TimerEvent: {}
+[12.261531] (-) TimerEvent: {}
+[12.361988] (-) TimerEvent: {}
+[12.462952] (-) TimerEvent: {}
+[12.563945] (-) TimerEvent: {}
+[12.664704] (-) TimerEvent: {}
+[12.765482] (-) TimerEvent: {}
+[12.866151] (-) TimerEvent: {}
+[12.966829] (-) TimerEvent: {}
+[13.067564] (-) TimerEvent: {}
+[13.168091] (-) TimerEvent: {}
+[13.268753] (-) TimerEvent: {}
+[13.369559] (-) TimerEvent: {}
+[13.470103] (-) TimerEvent: {}
+[13.570741] (-) TimerEvent: {}
+[13.671512] (-) TimerEvent: {}
+[13.772288] (-) TimerEvent: {}
+[13.872850] (-) TimerEvent: {}
+[13.973682] (-) TimerEvent: {}
+[14.074384] (-) TimerEvent: {}
+[14.175036] (-) TimerEvent: {}
+[14.275722] (-) TimerEvent: {}
+[14.376374] (-) TimerEvent: {}
+[14.476894] (-) TimerEvent: {}
+[14.577435] (-) TimerEvent: {}
+[14.678069] (-) TimerEvent: {}
+[14.778665] (-) TimerEvent: {}
+[14.879122] (-) TimerEvent: {}
+[14.979577] (-) TimerEvent: {}
+[15.080238] (-) TimerEvent: {}
+[15.180693] (-) TimerEvent: {}
+[15.281126] (-) TimerEvent: {}
+[15.381765] (-) TimerEvent: {}
+[15.482255] (-) TimerEvent: {}
+[15.582724] (-) TimerEvent: {}
+[15.683242] (-) TimerEvent: {}
+[15.783856] (-) TimerEvent: {}
+[15.884508] (-) TimerEvent: {}
+[15.984973] (-) TimerEvent: {}
+[16.085432] (-) TimerEvent: {}
+[16.185901] (-) TimerEvent: {}
+[16.286445] (-) TimerEvent: {}
+[16.386886] (-) TimerEvent: {}
+[16.487335] (-) TimerEvent: {}
+[16.588064] (-) TimerEvent: {}
+[16.688685] (-) TimerEvent: {}
+[16.789326] (-) TimerEvent: {}
+[16.889752] (-) TimerEvent: {}
+[16.990189] (-) TimerEvent: {}
+[17.090656] (-) TimerEvent: {}
+[17.191400] (-) TimerEvent: {}
+[17.292098] (-) TimerEvent: {}
+[17.392605] (-) TimerEvent: {}
+[17.493229] (-) TimerEvent: {}
+[17.593890] (-) TimerEvent: {}
+[17.694547] (-) TimerEvent: {}
+[17.795017] (-) TimerEvent: {}
+[17.895447] (-) TimerEvent: {}
+[17.996030] (-) TimerEvent: {}
+[18.096736] (-) TimerEvent: {}
+[18.197495] (-) TimerEvent: {}
+[18.298031] (-) TimerEvent: {}
+[18.398701] (-) TimerEvent: {}
+[18.499315] (-) TimerEvent: {}
+[18.599889] (-) TimerEvent: {}
+[18.700519] (-) TimerEvent: {}
+[18.801127] (-) TimerEvent: {}
+[18.901735] (-) TimerEvent: {}
+[19.002317] (-) TimerEvent: {}
+[19.103039] (-) TimerEvent: {}
+[19.203522] (-) TimerEvent: {}
+[19.303972] (-) TimerEvent: {}
+[19.404533] (-) TimerEvent: {}
+[19.505003] (-) TimerEvent: {}
+[19.605622] (-) TimerEvent: {}
+[19.706085] (-) TimerEvent: {}
+[19.806550] (-) TimerEvent: {}
+[19.907150] (-) TimerEvent: {}
+[20.007726] (-) TimerEvent: {}
+[20.055806] (cmd_vel_mux) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcmd_vel_mux.so\x1b[0m\n'}
+[20.107909] (-) TimerEvent: {}
+[20.208453] (-) TimerEvent: {}
+[20.309070] (-) TimerEvent: {}
+[20.409560] (-) TimerEvent: {}
+[20.510066] (-) TimerEvent: {}
+[20.610673] (-) TimerEvent: {}
+[20.699534] (cmd_vel_mux) StdoutLine: {'line': b'[100%] Built target cmd_vel_mux\n'}
+[20.710477] (cmd_vel_mux) JobEnded: {'identifier': 'cmd_vel_mux', 'rc': 'SIGINT'}
+[20.711381] (-) TimerEvent: {}
+[20.721119] (-) EventReactorShutdown: {}

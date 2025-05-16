@@ -1,0 +1,416 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa9c9399ed0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa9c9513430>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa9c9513430>>, mixin_verb=('build',))
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/maty/rob_movil_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/cmd_vel_mux) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cmd_vel_mux' with type 'ros.ament_cmake' and name 'cmd_vel_mux'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab2_iic2685) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab2_iic2685' with type 'ros.ament_cmake' and name 'lab2_iic2685'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini_tarea_2) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini_tarea_2' with type 'ros.ament_cmake' and name 'mini_tarea_2'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/movement_robot) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/movement_robot' with type 'ros.ament_cmake' and name 'movement_robot'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/very_simple_robot_simulator) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/very_simple_robot_simulator' with type 'ros.ament_cmake' and name 'very_simple_robot_simulator'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/maty/rob_movil_ws/install
+[0.212s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'cmd_vel_mux' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'cmd_vel_mux' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maty/rob_movil_ws/build/cmd_vel_mux', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maty/rob_movil_ws/install/cmd_vel_mux', 'merge_install': False, 'path': '/home/maty/rob_movil_ws/src/cmd_vel_mux', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'lab2_iic2685' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'lab2_iic2685' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maty/rob_movil_ws/build/lab2_iic2685', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maty/rob_movil_ws/install/lab2_iic2685', 'merge_install': False, 'path': '/home/maty/rob_movil_ws/src/lab2_iic2685', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'mini_tarea_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'mini_tarea_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maty/rob_movil_ws/build/mini_tarea_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maty/rob_movil_ws/install/mini_tarea_2', 'merge_install': False, 'path': '/home/maty/rob_movil_ws/src/mini_tarea_2', 'symlink_install': True, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'movement_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'movement_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maty/rob_movil_ws/build/movement_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maty/rob_movil_ws/install/movement_robot', 'merge_install': False, 'path': '/home/maty/rob_movil_ws/src/movement_robot', 'symlink_install': True, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'very_simple_robot_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'very_simple_robot_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/maty/rob_movil_ws/build/very_simple_robot_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/maty/rob_movil_ws/install/very_simple_robot_simulator', 'merge_install': False, 'path': '/home/maty/rob_movil_ws/src/very_simple_robot_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.233s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.234s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maty/rob_movil_ws/src/cmd_vel_mux' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maty/rob_movil_ws/src/cmd_vel_mux'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maty/rob_movil_ws/src/lab2_iic2685' with build type 'ament_cmake'
+[0.239s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maty/rob_movil_ws/src/lab2_iic2685'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maty/rob_movil_ws/src/mini_tarea_2' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maty/rob_movil_ws/src/mini_tarea_2'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maty/rob_movil_ws/src/movement_robot' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maty/rob_movil_ws/src/movement_robot'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/maty/rob_movil_ws/src/very_simple_robot_simulator' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/maty/rob_movil_ws/src/very_simple_robot_simulator'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/cmd_vel_mux -- -j22 -l22
+[0.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/lab2_iic2685 -- -j22 -l22
+[0.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/movement_robot -- -j22 -l22
+[0.269s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/very_simple_robot_simulator -- -j22 -l22
+[0.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/movement_robot -- -j22 -l22
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/movement_robot
+[0.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/cmd_vel_mux -- -j22 -l22
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/cmd_vel_mux
+[0.305s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movement_robot)
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/movement_robot
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot' for CMake module files
+[0.312s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot' for CMake config files
+[0.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('movement_robot', 'cmake_prefix_path')
+[0.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.ps1'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.dsv'
+[0.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.sh'
+[0.313s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/bin'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib/pkgconfig/movement_robot.pc'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib/python3.10/site-packages'
+[0.314s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/bin'
+[0.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.ps1'
+[0.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.dsv'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.sh'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.bash'
+[0.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.zsh'
+[0.317s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/movement_robot/share/colcon-core/packages/movement_robot)
+[0.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(movement_robot)
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot' for CMake module files
+[0.318s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot' for CMake config files
+[0.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('movement_robot', 'cmake_prefix_path')
+[0.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.ps1'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.dsv'
+[0.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/hook/cmake_prefix_path.sh'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/bin'
+[0.319s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib/pkgconfig/movement_robot.pc'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/lib/python3.10/site-packages'
+[0.320s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/movement_robot/bin'
+[0.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.ps1'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.dsv'
+[0.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.sh'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.bash'
+[0.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/movement_robot/share/movement_robot/package.zsh'
+[0.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/movement_robot/share/colcon-core/packages/movement_robot)
+[0.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux' for CMake module files
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/cmd_vel_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/cmd_vel_mux
+[0.324s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux' for CMake config files
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[0.326s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'
+[0.326s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[0.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/bin'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[0.327s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib/python3.10/site-packages'
+[0.328s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/bin'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[0.328s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[0.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[0.329s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[0.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cmd_vel_mux)
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux' for CMake module files
+[0.330s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux' for CMake config files
+[0.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'cmake_prefix_path')
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.ps1'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.dsv'
+[0.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/cmake_prefix_path.sh'
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib'
+[0.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('cmd_vel_mux', 'ld_library_path_lib')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.ps1'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.dsv'
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/hook/ld_library_path_lib.sh'
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/bin'
+[0.331s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib/pkgconfig/cmd_vel_mux.pc'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/lib/python3.10/site-packages'
+[0.332s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/cmd_vel_mux/bin'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.sh'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.bash'
+[0.333s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/cmd_vel_mux/share/cmd_vel_mux/package.zsh'
+[0.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/cmd_vel_mux/share/colcon-core/packages/cmd_vel_mux)
+[0.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/lab2_iic2685 -- -j22 -l22
+[0.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/lab2_iic2685
+[0.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/very_simple_robot_simulator -- -j22 -l22
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/very_simple_robot_simulator
+[0.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_iic2685)
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/lab2_iic2685
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685' for CMake module files
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685' for CMake config files
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_iic2685', 'cmake_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/bin'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib/pkgconfig/lab2_iic2685.pc'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib/python3.10/site-packages'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/bin'
+[0.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.sh'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.bash'
+[0.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.zsh'
+[0.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/lab2_iic2685/share/colcon-core/packages/lab2_iic2685)
+[0.495s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab2_iic2685)
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685' for CMake module files
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab2_iic2685', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/hook/cmake_prefix_path.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/bin'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib/pkgconfig/lab2_iic2685.pc'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/lib/python3.10/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/lab2_iic2685/bin'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.bash'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/lab2_iic2685/share/lab2_iic2685/package.zsh'
+[0.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/lab2_iic2685/share/colcon-core/packages/lab2_iic2685)
+[0.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_tarea_2)
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2' for CMake module files
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2' for CMake config files
+[0.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_tarea_2', 'cmake_prefix_path')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.sh'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/bin'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib/pkgconfig/mini_tarea_2.pc'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib/python3.10/site-packages'
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/bin'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.sh'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.zsh'
+[0.503s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/mini_tarea_2/share/colcon-core/packages/mini_tarea_2)
+[0.503s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini_tarea_2)
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2' for CMake module files
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2' for CMake config files
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini_tarea_2', 'cmake_prefix_path')
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/bin'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib/pkgconfig/mini_tarea_2.pc'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/lib/python3.10/site-packages'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/mini_tarea_2/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.sh'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.bash'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.zsh'
+[0.506s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/mini_tarea_2/share/colcon-core/packages/mini_tarea_2)
+[0.507s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator' for CMake module files
+[0.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/maty/rob_movil_ws/build/very_simple_robot_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/very_simple_robot_simulator
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator' for CMake config files
+[0.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/bin'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[0.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(very_simple_robot_simulator)
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator' for CMake module files
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator' for CMake config files
+[0.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('very_simple_robot_simulator', 'cmake_prefix_path')
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/hook/cmake_prefix_path.sh'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/bin'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/pkgconfig/very_simple_robot_simulator.pc'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/lib/python3.10/site-packages'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/bin'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.sh'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/very_simple_robot_simulator/package.zsh'
+[0.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/maty/rob_movil_ws/install/very_simple_robot_simulator/share/colcon-core/packages/very_simple_robot_simulator)
+[0.513s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.514s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.514s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.514s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.533s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.533s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[0.533s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maty/rob_movil_ws/install/local_setup.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maty/rob_movil_ws/install/_local_setup_util_ps1.py'
+[0.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maty/rob_movil_ws/install/setup.ps1'
+[0.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maty/rob_movil_ws/install/local_setup.sh'
+[0.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/maty/rob_movil_ws/install/_local_setup_util_sh.py'
+[0.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maty/rob_movil_ws/install/setup.sh'
+[0.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maty/rob_movil_ws/install/local_setup.bash'
+[0.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maty/rob_movil_ws/install/setup.bash'
+[0.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/maty/rob_movil_ws/install/local_setup.zsh'
+[0.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/maty/rob_movil_ws/install/setup.zsh'

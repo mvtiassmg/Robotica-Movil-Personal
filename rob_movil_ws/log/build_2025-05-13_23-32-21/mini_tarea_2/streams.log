@@ -1,0 +1,53 @@
+[0.014s] Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.098s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.102s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.102s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.165s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.167s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.170s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.179s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.234s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.275s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.275s] -- Configured cppcheck include dirs: 
+[0.275s] -- Configured cppcheck exclude dirs and/or files: 
+[0.275s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.275s] -- Added test 'lint_cmake' to check CMake code style
+[0.276s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.277s] -- Added test 'uncrustify' to check C / C++ code style
+[0.277s] -- Configured uncrustify additional arguments: 
+[0.278s] -- Added test 'xmllint' to check XML markup files
+[0.278s] -- Configuring done
+[0.281s] -- Generating done
+[0.282s] -- Build files have been written to: /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.303s] Built target ament_cmake_python_symlink_mini_tarea_2
+[0.421s] running egg_info
+[0.421s] writing mini_tarea_2.egg-info/PKG-INFO
+[0.421s] writing dependency_links to mini_tarea_2.egg-info/dependency_links.txt
+[0.421s] writing top-level names to mini_tarea_2.egg-info/top_level.txt
+[0.422s] reading manifest file 'mini_tarea_2.egg-info/SOURCES.txt'
+[0.423s] writing manifest file 'mini_tarea_2.egg-info/SOURCES.txt'
+[0.438s] Built target ament_cmake_python_build_mini_tarea_2_egg
+[0.445s] Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.447s] Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.449s] -- Install configuration: ""
+[0.450s] -- Execute custom install script
+[0.450s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.sh
+[0.450s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/pythonpath.dsv
+[0.450s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/PKG-INFO
+[0.450s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.451s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.451s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2-0.0.0-py3.10.egg-info/top_level.txt
+[0.451s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/local/lib/python3.10/dist-packages/mini_tarea_2/__init__.py
+[0.451s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/pid_controller.py
+[0.451s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/virtual_robot.py
+[0.451s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.451s]   ament_cmake_symlink_install_directory() can't find
+[0.451s]   '/home/maty/rob_movil_ws/src/mini_tarea_2/src/mini_t2_launch'
+[0.451s] Call Stack (most recent call first):
+[0.451s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:332 (ament_cmake_symlink_install_directory)
+[0.451s]   cmake_install.cmake:46 (include)
+[0.451s] 
+[0.452s] [0m
+[0.452s] Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2

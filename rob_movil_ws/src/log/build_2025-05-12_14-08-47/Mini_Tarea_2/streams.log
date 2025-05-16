@@ -1,0 +1,43 @@
+[0.046s] Invoking command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/Mini_Tarea_2 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/install/Mini_Tarea_2
+[0.516s] -- The C compiler identification is GNU 11.4.0
+[0.913s] -- The CXX compiler identification is GNU 11.4.0
+[1.150s] -- Detecting C compiler ABI info
+[1.278s] -- Detecting C compiler ABI info - done
+[1.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.286s] -- Detecting C compile features
+[1.286s] -- Detecting C compile features - done
+[1.290s] -- Detecting CXX compiler ABI info
+[1.427s] -- Detecting CXX compiler ABI info - done
+[1.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.435s] -- Detecting CXX compile features
+[1.435s] -- Detecting CXX compile features - done
+[1.444s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.611s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.751s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.809s] WARNING: Package name "Mini_Tarea_2" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.850s] -- Added test 'lint_cmake' to check CMake code style
+[1.852s] -- Added test 'xmllint' to check XML markup files
+[1.854s] -- Configuring done
+[1.858s] -- Generating done
+[1.860s] -- Build files have been written to: /home/maty/rob_movil_ws/src/build/Mini_Tarea_2
+[1.866s] Invoked command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/Mini_Tarea_2 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/install/Mini_Tarea_2
+[1.868s] Invoking command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/Mini_Tarea_2 -- -j22 -l22
+[1.900s] Invoked command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/Mini_Tarea_2 -- -j22 -l22
+[1.908s] Invoking command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/Mini_Tarea_2
+[1.914s] -- Install configuration: ""
+[1.915s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/package_run_dependencies/Mini_Tarea_2
+[1.915s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/parent_prefix_path/Mini_Tarea_2
+[1.915s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/ament_prefix_path.sh
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/ament_prefix_path.dsv
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/path.sh
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/environment/path.dsv
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.bash
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.sh
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.zsh
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/local_setup.dsv
+[1.916s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/package.dsv
+[1.917s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/ament_index/resource_index/packages/Mini_Tarea_2
+[1.917s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/cmake/Mini_Tarea_2Config.cmake
+[1.917s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/cmake/Mini_Tarea_2Config-version.cmake
+[1.917s] -- Installing: /home/maty/rob_movil_ws/src/install/Mini_Tarea_2/share/Mini_Tarea_2/package.xml
+[1.919s] Invoked command in '/home/maty/rob_movil_ws/src/build/Mini_Tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/Mini_Tarea_2

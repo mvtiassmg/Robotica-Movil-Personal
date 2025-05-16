@@ -1,0 +1,3 @@
+[0.017s] Invoking command in '/home/maty/rob_movil_ws/build/cmd_vel_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/cmd_vel_mux -- -j22 -l22
+[0.091s] [ 50%] Built target cmd_vel_mux
+[0.091s] [100%] Built target cmd_vel_mux_node

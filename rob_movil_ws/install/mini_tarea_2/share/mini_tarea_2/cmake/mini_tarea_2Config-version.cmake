@@ -1,0 +1,1 @@
+/home/maty/rob_movil_ws/build/mini_tarea_2/ament_cmake_core/mini_tarea_2Config-version.cmake

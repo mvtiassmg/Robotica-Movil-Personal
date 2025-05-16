@@ -1,0 +1,61 @@
+[0.024s] Invoking command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/lab2_iic2685 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685
+[0.550s] -- The C compiler identification is GNU 11.4.0
+[1.486s] -- The CXX compiler identification is GNU 11.4.0
+[2.064s] -- Detecting C compiler ABI info
+[2.335s] -- Detecting C compiler ABI info - done
+[2.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.347s] -- Detecting C compile features
+[2.350s] -- Detecting C compile features - done
+[2.360s] -- Detecting CXX compiler ABI info
+[2.588s] -- Detecting CXX compiler ABI info - done
+[2.598s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.599s] -- Detecting CXX compile features
+[2.603s] -- Detecting CXX compile features - done
+[2.650s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.856s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.962s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.130s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.259s] -- Configured cppcheck include dirs: 
+[3.259s] -- Configured cppcheck exclude dirs and/or files: 
+[3.260s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.263s] -- Added test 'lint_cmake' to check CMake code style
+[3.266s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.271s] -- Added test 'uncrustify' to check C / C++ code style
+[3.271s] -- Configured uncrustify additional arguments: 
+[3.273s] -- Added test 'xmllint' to check XML markup files
+[3.278s] -- Configuring done
+[3.289s] -- Generating done
+[3.290s] -- Build files have been written to: /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685
+[3.297s] Invoked command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/lab2_iic2685 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685
+[3.298s] Invoking command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685 -- -j22 -l22
+[3.347s] Built target ament_cmake_python_symlink_lab2_iic2685
+[3.616s] running egg_info
+[3.618s] creating lab2_iic2685.egg-info
+[3.620s] writing lab2_iic2685.egg-info/PKG-INFO
+[3.620s] writing dependency_links to lab2_iic2685.egg-info/dependency_links.txt
+[3.620s] writing top-level names to lab2_iic2685.egg-info/top_level.txt
+[3.620s] writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+[3.626s] reading manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+[3.626s] writing manifest file 'lab2_iic2685.egg-info/SOURCES.txt'
+[3.659s] Built target ament_cmake_python_build_lab2_iic2685_egg
+[3.672s] Invoked command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685 -- -j22 -l22
+[3.679s] Invoking command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685
+[3.685s] -- Install configuration: ""
+[3.685s] -- Execute custom install script
+[3.686s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.sh
+[3.694s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/share/lab2_iic2685/environment/pythonpath.dsv
+[3.703s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/PKG-INFO
+[3.708s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.716s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.725s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685-0.0.0-py3.10.egg-info/top_level.txt
+[3.730s] -- Symlinking: /home/maty/rob_movil_ws/src/lab2_iic2685/install/lab2_iic2685/local/lib/python3.10/dist-packages/lab2_iic2685/__init__.py
+[3.737s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+[3.737s]   ament_cmake_symlink_install_programs() can't find
+[3.738s]   '/home/maty/rob_movil_ws/src/lab2_iic2685/src/nodes/pid_controller.py'
+[3.738s] Call Stack (most recent call first):
+[3.738s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_programs)
+[3.738s]   cmake_install.cmake:46 (include)
+[3.738s] 
+[3.738s] [0m
+[3.740s] Invoked command in '/home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/lab2_iic2685/build/lab2_iic2685

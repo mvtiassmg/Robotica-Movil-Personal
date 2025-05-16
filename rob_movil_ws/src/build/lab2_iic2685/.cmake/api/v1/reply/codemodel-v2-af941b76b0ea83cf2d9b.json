@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cb139e57323505fcf888.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab2_iic2685",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_lab2_iic2685_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_lab2_iic2685_egg-44fbd28d3bbbedd0fb4a.json",
+					"name" : "ament_cmake_python_build_lab2_iic2685_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_lab2_iic2685::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_lab2_iic2685-3b39ba4f3dd267e5d682.json",
+					"name" : "ament_cmake_python_copy_lab2_iic2685",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab2_iic2685_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab2_iic2685_uninstall-800c163dae80956110b1.json",
+					"name" : "lab2_iic2685_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-600366e2f22d09b63597.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/maty/rob_movil_ws/src/build/lab2_iic2685",
+		"source" : "/home/maty/rob_movil_ws/src/lab2_iic2685"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

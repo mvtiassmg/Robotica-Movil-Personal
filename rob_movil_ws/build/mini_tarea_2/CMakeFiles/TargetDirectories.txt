@@ -1,0 +1,11 @@
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/uninstall.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/mini_tarea_2_uninstall.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/ament_cmake_python_symlink_mini_tarea_2.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/ament_cmake_python_build_mini_tarea_2_egg.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/test.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/edit_cache.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/rebuild_cache.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/list_install_components.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/install.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/install/local.dir
+/home/maty/rob_movil_ws/build/mini_tarea_2/CMakeFiles/install/strip.dir

@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.100s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.138s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.138s] -- Configured cppcheck include dirs: 
+[0.138s] -- Configured cppcheck exclude dirs and/or files: 
+[0.139s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.139s] -- Added test 'lint_cmake' to check CMake code style
+[0.140s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.141s] -- Added test 'uncrustify' to check C / C++ code style
+[0.141s] -- Configured uncrustify additional arguments: 
+[0.142s] -- Added test 'xmllint' to check XML markup files
+[0.142s] -- Configuring done
+[0.144s] -- Generating done
+[0.145s] -- Build files have been written to: /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.157s] Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/build/mini_tarea_2 -- -j22 -l22
+[0.158s] Invoking command in '/home/maty/rob_movil_ws/build/mini_tarea_2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2
+[0.162s] -- Install configuration: ""
+[0.162s] -- Execute custom install script
+[0.162s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/pid_controller.py
+[0.162s] -- Up-to-date symlink: /home/maty/rob_movil_ws/install/mini_tarea_2/lib/mini_tarea_2/virtual_robot.py
+[0.162s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/launch/launch.py
+[0.167s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/package_run_dependencies/mini_tarea_2
+[0.171s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/parent_prefix_path/mini_tarea_2
+[0.175s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.sh
+[0.179s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/ament_prefix_path.dsv
+[0.183s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.sh
+[0.188s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/environment/path.dsv
+[0.192s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.bash
+[0.196s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.sh
+[0.200s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.zsh
+[0.204s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/local_setup.dsv
+[0.208s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.dsv
+[0.211s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/ament_index/resource_index/packages/mini_tarea_2
+[0.215s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config.cmake
+[0.219s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/cmake/mini_tarea_2Config-version.cmake
+[0.222s] -- Symlinking: /home/maty/rob_movil_ws/install/mini_tarea_2/share/mini_tarea_2/package.xml
+[0.227s] Invoked command in '/home/maty/rob_movil_ws/build/mini_tarea_2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/build/mini_tarea_2

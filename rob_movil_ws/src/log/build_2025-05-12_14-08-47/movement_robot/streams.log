@@ -1,0 +1,44 @@
+[0.025s] Invoking command in '/home/maty/rob_movil_ws/src/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/movement_robot -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/install/movement_robot
+[0.487s] -- The C compiler identification is GNU 11.4.0
+[0.878s] -- The CXX compiler identification is GNU 11.4.0
+[1.179s] -- Detecting C compiler ABI info
+[1.292s] -- Detecting C compiler ABI info - done
+[1.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.301s] -- Detecting C compile features
+[1.301s] -- Detecting C compile features - done
+[1.306s] -- Detecting CXX compiler ABI info
+[1.431s] -- Detecting CXX compiler ABI info - done
+[1.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.440s] -- Detecting CXX compile features
+[1.441s] -- Detecting CXX compile features - done
+[1.442s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.604s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.722s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.822s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.823s] -- Added test 'lint_cmake' to check CMake code style
+[1.823s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.825s] -- Added test 'xmllint' to check XML markup files
+[1.826s] -- Configuring done
+[1.829s] -- Generating done
+[1.831s] -- Build files have been written to: /home/maty/rob_movil_ws/src/build/movement_robot
+[1.839s] Invoked command in '/home/maty/rob_movil_ws/src/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/maty/rob_movil_ws/src/movement_robot -DCMAKE_INSTALL_PREFIX=/home/maty/rob_movil_ws/src/install/movement_robot
+[1.842s] Invoking command in '/home/maty/rob_movil_ws/src/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/movement_robot -- -j22 -l22
+[1.882s] Invoked command in '/home/maty/rob_movil_ws/src/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/maty/rob_movil_ws/src/build/movement_robot -- -j22 -l22
+[1.883s] Invoking command in '/home/maty/rob_movil_ws/src/build/movement_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/movement_robot
+[1.891s] -- Install configuration: ""
+[1.891s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/ament_index/resource_index/package_run_dependencies/movement_robot
+[1.891s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/ament_index/resource_index/parent_prefix_path/movement_robot
+[1.891s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/environment/ament_prefix_path.sh
+[1.892s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/environment/ament_prefix_path.dsv
+[1.892s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/environment/path.sh
+[1.892s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/environment/path.dsv
+[1.892s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/local_setup.bash
+[1.893s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/local_setup.sh
+[1.893s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/local_setup.zsh
+[1.893s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/local_setup.dsv
+[1.893s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/package.dsv
+[1.893s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/ament_index/resource_index/packages/movement_robot
+[1.894s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/cmake/movement_robotConfig.cmake
+[1.894s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/cmake/movement_robotConfig-version.cmake
+[1.894s] -- Installing: /home/maty/rob_movil_ws/src/install/movement_robot/share/movement_robot/package.xml
+[1.925s] Invoked command in '/home/maty/rob_movil_ws/src/build/movement_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/maty/rob_movil_ws/src/build/movement_robot

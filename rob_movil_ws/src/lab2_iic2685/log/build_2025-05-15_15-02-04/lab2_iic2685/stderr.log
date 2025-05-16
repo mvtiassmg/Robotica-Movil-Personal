@@ -1,0 +1,8 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/maty/rob_movil_ws/src/lab2_iic2685/src/avanzar_y_rotar'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:329 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

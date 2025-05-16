@@ -1,0 +1,1 @@
+/home/maty/rob_movil_ws/build/movement_robot/ament_cmake_environment_hooks/local_setup.bash
